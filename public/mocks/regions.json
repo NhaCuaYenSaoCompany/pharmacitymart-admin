@@ -1,0 +1,1721 @@
+[
+  {
+    "code": "af",
+    "name": "Afghanistan",
+    "prefixPhone": "+93",
+    "languageCode": "ps",
+    "currencyCode": "AFN",
+    "phoneMaxlength": 9,
+    "locale": "ps-AF"
+  },
+  {
+    "code": "al",
+    "name": "Albania",
+    "prefixPhone": "+355",
+    "languageCode": "sq",
+    "currencyCode": "ALL",
+    "phoneMaxlength": 9,
+    "locale": "sq-AL"
+  },
+  {
+    "code": "dz",
+    "name": "Algeria",
+    "prefixPhone": "+213",
+    "languageCode": "ar",
+    "currencyCode": "DZD",
+    "phoneMaxlength": 9,
+    "locale": "ar-DZ"
+  },
+  {
+    "code": "ad",
+    "name": "Andorra",
+    "prefixPhone": "+376",
+    "languageCode": "ca",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 6,
+    "locale": "ca-AD"
+  },
+  {
+    "code": "ao",
+    "name": "Angola",
+    "prefixPhone": "+244",
+    "languageCode": "pt",
+    "currencyCode": "AOA",
+    "phoneMaxlength": 9,
+    "locale": "pt-AO"
+  },
+  {
+    "code": "ag",
+    "name": "Antigua and Barbuda",
+    "prefixPhone": "+1-268",
+    "languageCode": "en",
+    "currencyCode": "XCD",
+    "phoneMaxlength": 10,
+    "locale": "en-AG"
+  },
+  {
+    "code": "ar",
+    "name": "Argentina",
+    "prefixPhone": "+54",
+    "languageCode": "es",
+    "currencyCode": "ARS",
+    "phoneMaxlength": 10,
+    "locale": "es-AR"
+  },
+  {
+    "code": "am",
+    "name": "Armenia",
+    "prefixPhone": "+374",
+    "languageCode": "hy",
+    "currencyCode": "AMD",
+    "phoneMaxlength": 8,
+    "locale": "hy-AM"
+  },
+  {
+    "code": "au",
+    "name": "Australia",
+    "prefixPhone": "+61",
+    "languageCode": "en",
+    "currencyCode": "AUD",
+    "phoneMaxlength": 9,
+    "locale": "en-AU"
+  },
+  {
+    "code": "at",
+    "name": "Austria",
+    "prefixPhone": "+43",
+    "languageCode": "de",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 10,
+    "locale": "de-AT"
+  },
+  {
+    "code": "az",
+    "name": "Azerbaijan",
+    "prefixPhone": "+994",
+    "languageCode": "az",
+    "currencyCode": "AZN",
+    "phoneMaxlength": 9,
+    "locale": "az-AZ"
+  },
+  {
+    "code": "bs",
+    "name": "Bahamas",
+    "prefixPhone": "+1-242",
+    "languageCode": "en",
+    "currencyCode": "BSD",
+    "phoneMaxlength": 10,
+    "locale": "en-BS"
+  },
+  {
+    "code": "bh",
+    "name": "Bahrain",
+    "prefixPhone": "+973",
+    "languageCode": "ar",
+    "currencyCode": "BHD",
+    "phoneMaxlength": 8,
+    "locale": "ar-BH"
+  },
+  {
+    "code": "bd",
+    "name": "Bangladesh",
+    "prefixPhone": "+880",
+    "languageCode": "bn",
+    "currencyCode": "BDT",
+    "phoneMaxlength": 10,
+    "locale": "bn-BD"
+  },
+  {
+    "code": "bb",
+    "name": "Barbados",
+    "prefixPhone": "+1-246",
+    "languageCode": "en",
+    "currencyCode": "BBD",
+    "phoneMaxlength": 10,
+    "locale": "en-BB"
+  },
+  {
+    "code": "by",
+    "name": "Belarus",
+    "prefixPhone": "+375",
+    "languageCode": "be",
+    "currencyCode": "BYN",
+    "phoneMaxlength": 9,
+    "locale": "be-BY"
+  },
+  {
+    "code": "be",
+    "name": "Belgium",
+    "prefixPhone": "+32",
+    "languageCode": "nl",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 9,
+    "locale": "nl-BE"
+  },
+  {
+    "code": "bz",
+    "name": "Belize",
+    "prefixPhone": "+501",
+    "languageCode": "en",
+    "currencyCode": "BZD",
+    "phoneMaxlength": 7,
+    "locale": "en-BZ"
+  },
+  {
+    "code": "bj",
+    "name": "Benin",
+    "prefixPhone": "+229",
+    "languageCode": "fr",
+    "currencyCode": "XOF",
+    "phoneMaxlength": 8,
+    "locale": "fr-BJ"
+  },
+  {
+    "code": "bt",
+    "name": "Bhutan",
+    "prefixPhone": "+975",
+    "languageCode": "dz",
+    "currencyCode": "BTN",
+    "phoneMaxlength": 8,
+    "locale": "dz-BT"
+  },
+  {
+    "code": "bo",
+    "name": "Bolivia",
+    "prefixPhone": "+591",
+    "languageCode": "es",
+    "currencyCode": "BOB",
+    "phoneMaxlength": 8,
+    "locale": "es-BO"
+  },
+  {
+    "code": "ba",
+    "name": "Bosnia and Herzegovina",
+    "prefixPhone": "+387",
+    "languageCode": "bs",
+    "currencyCode": "BAM",
+    "phoneMaxlength": 8,
+    "locale": "bs-BA"
+  },
+  {
+    "code": "bw",
+    "name": "Botswana",
+    "prefixPhone": "+267",
+    "languageCode": "en",
+    "currencyCode": "BWP",
+    "phoneMaxlength": 8,
+    "locale": "en-BW"
+  },
+  {
+    "code": "br",
+    "name": "Brazil",
+    "prefixPhone": "+55",
+    "languageCode": "pt",
+    "currencyCode": "BRL",
+    "phoneMaxlength": 11,
+    "locale": "pt-BR"
+  },
+  {
+    "code": "bn",
+    "name": "Brunei",
+    "prefixPhone": "+673",
+    "languageCode": "ms",
+    "currencyCode": "BND",
+    "phoneMaxlength": 7,
+    "locale": "ms-BN"
+  },
+  {
+    "code": "bg",
+    "name": "Bulgaria",
+    "prefixPhone": "+359",
+    "languageCode": "bg",
+    "currencyCode": "BGN",
+    "phoneMaxlength": 9,
+    "locale": "bg-BG"
+  },
+  {
+    "code": "bf",
+    "name": "Burkina Faso",
+    "prefixPhone": "+226",
+    "languageCode": "fr",
+    "currencyCode": "XOF",
+    "phoneMaxlength": 8,
+    "locale": "fr-BF"
+  },
+  {
+    "code": "bi",
+    "name": "Burundi",
+    "prefixPhone": "+257",
+    "languageCode": "rn",
+    "currencyCode": "BIF",
+    "phoneMaxlength": 8,
+    "locale": "rn-BI"
+  },
+  {
+    "code": "kh",
+    "name": "Cambodia",
+    "prefixPhone": "+855",
+    "languageCode": "km",
+    "currencyCode": "KHR",
+    "phoneMaxlength": 9,
+    "locale": "km-KH"
+  },
+  {
+    "code": "cm",
+    "name": "Cameroon",
+    "prefixPhone": "+237",
+    "languageCode": "fr",
+    "currencyCode": "XAF",
+    "phoneMaxlength": 9,
+    "locale": "fr-CM"
+  },
+  {
+    "code": "ca",
+    "name": "Canada",
+    "prefixPhone": "+1",
+    "languageCode": "en",
+    "currencyCode": "CAD",
+    "phoneMaxlength": 10,
+    "locale": "en-CA"
+  },
+  {
+    "code": "cv",
+    "name": "Cape Verde",
+    "prefixPhone": "+238",
+    "languageCode": "pt",
+    "currencyCode": "CVE",
+    "phoneMaxlength": 7,
+    "locale": "pt-CV"
+  },
+  {
+    "code": "cf",
+    "name": "Central African Republic",
+    "prefixPhone": "+236",
+    "languageCode": "fr",
+    "currencyCode": "XAF",
+    "phoneMaxlength": 8,
+    "locale": "fr-CF"
+  },
+  {
+    "code": "td",
+    "name": "Chad",
+    "prefixPhone": "+235",
+    "languageCode": "fr",
+    "currencyCode": "XAF",
+    "phoneMaxlength": 8,
+    "locale": "fr-TD"
+  },
+  {
+    "code": "cl",
+    "name": "Chile",
+    "prefixPhone": "+56",
+    "languageCode": "es",
+    "currencyCode": "CLP",
+    "phoneMaxlength": 9,
+    "locale": "es-CL"
+  },
+  {
+    "code": "cn",
+    "name": "China",
+    "prefixPhone": "+86",
+    "languageCode": "zh",
+    "currencyCode": "CNY",
+    "phoneMaxlength": 11,
+    "locale": "zh-CN"
+  },
+  {
+    "code": "co",
+    "name": "Colombia",
+    "prefixPhone": "+57",
+    "languageCode": "es",
+    "currencyCode": "COP",
+    "phoneMaxlength": 10,
+    "locale": "es-CO"
+  },
+  {
+    "code": "km",
+    "name": "Comoros",
+    "prefixPhone": "+269",
+    "languageCode": "ar",
+    "currencyCode": "KMF",
+    "phoneMaxlength": 7,
+    "locale": "ar-KM"
+  },
+  {
+    "code": "cg",
+    "name": "Congo",
+    "prefixPhone": "+242",
+    "languageCode": "fr",
+    "currencyCode": "XAF",
+    "phoneMaxlength": 9,
+    "locale": "fr-CG"
+  },
+  {
+    "code": "cd",
+    "name": "Congo, Democratic Republic of the",
+    "prefixPhone": "+243",
+    "languageCode": "fr",
+    "currencyCode": "CDF",
+    "phoneMaxlength": 9,
+    "locale": "fr-CD"
+  },
+  {
+    "code": "cr",
+    "name": "Costa Rica",
+    "prefixPhone": "+506",
+    "languageCode": "es",
+    "currencyCode": "CRC",
+    "phoneMaxlength": 8,
+    "locale": "es-CR"
+  },
+  {
+    "code": "hr",
+    "name": "Croatia",
+    "prefixPhone": "+385",
+    "languageCode": "hr",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 9,
+    "locale": "hr-HR"
+  },
+  {
+    "code": "cu",
+    "name": "Cuba",
+    "prefixPhone": "+53",
+    "languageCode": "es",
+    "currencyCode": "CUP",
+    "phoneMaxlength": 8,
+    "locale": "es-CU"
+  },
+  {
+    "code": "cy",
+    "name": "Cyprus",
+    "prefixPhone": "+357",
+    "languageCode": "el",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 8,
+    "locale": "el-CY"
+  },
+  {
+    "code": "cz",
+    "name": "Czech Republic",
+    "prefixPhone": "+420",
+    "languageCode": "cs",
+    "currencyCode": "CZK",
+    "phoneMaxlength": 9,
+    "locale": "cs-CZ"
+  },
+  {
+    "code": "dk",
+    "name": "Denmark",
+    "prefixPhone": "+45",
+    "languageCode": "da",
+    "currencyCode": "DKK",
+    "phoneMaxlength": 8,
+    "locale": "da-DK"
+  },
+  {
+    "code": "dj",
+    "name": "Djibouti",
+    "prefixPhone": "+253",
+    "languageCode": "fr",
+    "currencyCode": "DJF",
+    "phoneMaxlength": 8,
+    "locale": "fr-DJ"
+  },
+  {
+    "code": "dm",
+    "name": "Dominica",
+    "prefixPhone": "+1-767",
+    "languageCode": "en",
+    "currencyCode": "XCD",
+    "phoneMaxlength": 10,
+    "locale": "en-DM"
+  },
+  {
+    "code": "do",
+    "name": "Dominican Republic",
+    "prefixPhone": "+1-809",
+    "languageCode": "es",
+    "currencyCode": "DOP",
+    "phoneMaxlength": 10,
+    "locale": "es-DO"
+  },
+  {
+    "code": "ec",
+    "name": "Ecuador",
+    "prefixPhone": "+593",
+    "languageCode": "es",
+    "currencyCode": "USD",
+    "phoneMaxlength": 9,
+    "locale": "es-EC"
+  },
+  {
+    "code": "eg",
+    "name": "Egypt",
+    "prefixPhone": "+20",
+    "languageCode": "ar",
+    "currencyCode": "EGP",
+    "phoneMaxlength": 10,
+    "locale": "ar-EG"
+  },
+  {
+    "code": "sv",
+    "name": "El Salvador",
+    "prefixPhone": "+503",
+    "languageCode": "es",
+    "currencyCode": "USD",
+    "phoneMaxlength": 8,
+    "locale": "es-SV"
+  },
+  {
+    "code": "gq",
+    "name": "Equatorial Guinea",
+    "prefixPhone": "+240",
+    "languageCode": "es",
+    "currencyCode": "XAF",
+    "phoneMaxlength": 9,
+    "locale": "es-GQ"
+  },
+  {
+    "code": "er",
+    "name": "Eritrea",
+    "prefixPhone": "+291",
+    "languageCode": "ti",
+    "currencyCode": "ERN",
+    "phoneMaxlength": 7,
+    "locale": "ti-ER"
+  },
+  {
+    "code": "ee",
+    "name": "Estonia",
+    "prefixPhone": "+372",
+    "languageCode": "et",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 8,
+    "locale": "et-EE"
+  },
+  {
+    "code": "et",
+    "name": "Ethiopia",
+    "prefixPhone": "+251",
+    "languageCode": "am",
+    "currencyCode": "ETB",
+    "phoneMaxlength": 9,
+    "locale": "am-ET"
+  },
+  {
+    "code": "fj",
+    "name": "Fiji",
+    "prefixPhone": "+679",
+    "languageCode": "en",
+    "currencyCode": "FJD",
+    "phoneMaxlength": 7,
+    "locale": "en-FJ"
+  },
+  {
+    "code": "fi",
+    "name": "Finland",
+    "prefixPhone": "+358",
+    "languageCode": "fi",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 9,
+    "locale": "fi-FI"
+  },
+  {
+    "code": "fr",
+    "name": "France",
+    "prefixPhone": "+33",
+    "languageCode": "fr",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 9,
+    "locale": "fr-FR"
+  },
+  {
+    "code": "ga",
+    "name": "Gabon",
+    "prefixPhone": "+241",
+    "languageCode": "fr",
+    "currencyCode": "XAF",
+    "phoneMaxlength": 7,
+    "locale": "fr-GA"
+  },
+  {
+    "code": "gm",
+    "name": "Gambia",
+    "prefixPhone": "+220",
+    "languageCode": "en",
+    "currencyCode": "GMD",
+    "phoneMaxlength": 7,
+    "locale": "en-GM"
+  },
+  {
+    "code": "ge",
+    "name": "Georgia",
+    "prefixPhone": "+995",
+    "languageCode": "ka",
+    "currencyCode": "GEL",
+    "phoneMaxlength": 9,
+    "locale": "ka-GE"
+  },
+  {
+    "code": "de",
+    "name": "Germany",
+    "prefixPhone": "+49",
+    "languageCode": "de",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 11,
+    "locale": "de-DE"
+  },
+  {
+    "code": "gh",
+    "name": "Ghana",
+    "prefixPhone": "+233",
+    "languageCode": "en",
+    "currencyCode": "GHS",
+    "phoneMaxlength": 9,
+    "locale": "en-GH"
+  },
+  {
+    "code": "gr",
+    "name": "Greece",
+    "prefixPhone": "+30",
+    "languageCode": "el",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 10,
+    "locale": "el-GR"
+  },
+  {
+    "code": "gd",
+    "name": "Grenada",
+    "prefixPhone": "+1-473",
+    "languageCode": "en",
+    "currencyCode": "XCD",
+    "phoneMaxlength": 10,
+    "locale": "en-GD"
+  },
+  {
+    "code": "gt",
+    "name": "Guatemala",
+    "prefixPhone": "+502",
+    "languageCode": "es",
+    "currencyCode": "GTQ",
+    "phoneMaxlength": 8,
+    "locale": "es-GT"
+  },
+  {
+    "code": "gn",
+    "name": "Guinea",
+    "prefixPhone": "+224",
+    "languageCode": "fr",
+    "currencyCode": "GNF",
+    "phoneMaxlength": 9,
+    "locale": "fr-GN"
+  },
+  {
+    "code": "gw",
+    "name": "Guinea-Bissau",
+    "prefixPhone": "+245",
+    "languageCode": "pt",
+    "currencyCode": "XOF",
+    "phoneMaxlength": 9,
+    "locale": "pt-GW"
+  },
+  {
+    "code": "gy",
+    "name": "Guyana",
+    "prefixPhone": "+592",
+    "languageCode": "en",
+    "currencyCode": "GYD",
+    "phoneMaxlength": 7,
+    "locale": "en-GY"
+  },
+  {
+    "code": "ht",
+    "name": "Haiti",
+    "prefixPhone": "+509",
+    "languageCode": "fr",
+    "currencyCode": "HTG",
+    "phoneMaxlength": 8,
+    "locale": "fr-HT"
+  },
+  {
+    "code": "hn",
+    "name": "Honduras",
+    "prefixPhone": "+504",
+    "languageCode": "es",
+    "currencyCode": "HNL",
+    "phoneMaxlength": 8,
+    "locale": "es-HN"
+  },
+  {
+    "code": "hu",
+    "name": "Hungary",
+    "prefixPhone": "+36",
+    "languageCode": "hu",
+    "currencyCode": "HUF",
+    "phoneMaxlength": 9,
+    "locale": "hu-HU"
+  },
+  {
+    "code": "is",
+    "name": "Iceland",
+    "prefixPhone": "+354",
+    "languageCode": "is",
+    "currencyCode": "ISK",
+    "phoneMaxlength": 7,
+    "locale": "is-IS"
+  },
+  {
+    "code": "in",
+    "name": "India",
+    "prefixPhone": "+91",
+    "languageCode": "hi",
+    "currencyCode": "INR",
+    "phoneMaxlength": 10,
+    "locale": "hi-IN"
+  },
+  {
+    "code": "id",
+    "name": "Indonesia",
+    "prefixPhone": "+62",
+    "languageCode": "id",
+    "currencyCode": "IDR",
+    "phoneMaxlength": 12,
+    "locale": "id-ID"
+  },
+  {
+    "code": "ir",
+    "name": "Iran",
+    "prefixPhone": "+98",
+    "languageCode": "fa",
+    "currencyCode": "IRR",
+    "phoneMaxlength": 10,
+    "locale": "fa-IR"
+  },
+  {
+    "code": "iq",
+    "name": "Iraq",
+    "prefixPhone": "+964",
+    "languageCode": "ar",
+    "currencyCode": "IQD",
+    "phoneMaxlength": 10,
+    "locale": "ar-IQ"
+  },
+  {
+    "code": "ie",
+    "name": "Ireland",
+    "prefixPhone": "+353",
+    "languageCode": "en",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 9,
+    "locale": "en-IE"
+  },
+  {
+    "code": "il",
+    "name": "Israel",
+    "prefixPhone": "+972",
+    "languageCode": "he",
+    "currencyCode": "ILS",
+    "phoneMaxlength": 9,
+    "locale": "he-IL"
+  },
+  {
+    "code": "it",
+    "name": "Italy",
+    "prefixPhone": "+39",
+    "languageCode": "it",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 10,
+    "locale": "it-IT"
+  },
+  {
+    "code": "jm",
+    "name": "Jamaica",
+    "prefixPhone": "+1-876",
+    "languageCode": "en",
+    "currencyCode": "JMD",
+    "phoneMaxlength": 10,
+    "locale": "en-JM"
+  },
+  {
+    "code": "jp",
+    "name": "Japan",
+    "prefixPhone": "+81",
+    "languageCode": "ja",
+    "currencyCode": "JPY",
+    "phoneMaxlength": 10,
+    "locale": "ja-JP"
+  },
+  {
+    "code": "jo",
+    "name": "Jordan",
+    "prefixPhone": "+962",
+    "languageCode": "ar",
+    "currencyCode": "JOD",
+    "phoneMaxlength": 9,
+    "locale": "ar-JO"
+  },
+  {
+    "code": "kz",
+    "name": "Kazakhstan",
+    "prefixPhone": "+7",
+    "languageCode": "kk",
+    "currencyCode": "KZT",
+    "phoneMaxlength": 10,
+    "locale": "kk-KZ"
+  },
+  {
+    "code": "ke",
+    "name": "Kenya",
+    "prefixPhone": "+254",
+    "languageCode": "sw",
+    "currencyCode": "KES",
+    "phoneMaxlength": 10,
+    "locale": "sw-KE"
+  },
+  {
+    "code": "ki",
+    "name": "Kiribati",
+    "prefixPhone": "+686",
+    "languageCode": "en",
+    "currencyCode": "AUD",
+    "phoneMaxlength": 8,
+    "locale": "en-KI"
+  },
+  {
+    "code": "kp",
+    "name": "North Korea",
+    "prefixPhone": "+850",
+    "languageCode": "ko",
+    "currencyCode": "KPW",
+    "phoneMaxlength": 8,
+    "locale": "ko-KP"
+  },
+  {
+    "code": "kr",
+    "name": "South Korea",
+    "prefixPhone": "+82",
+    "languageCode": "ko",
+    "currencyCode": "KRW",
+    "phoneMaxlength": 10,
+    "locale": "ko-KR"
+  },
+  {
+    "code": "kw",
+    "name": "Kuwait",
+    "prefixPhone": "+965",
+    "languageCode": "ar",
+    "currencyCode": "KWD",
+    "phoneMaxlength": 8,
+    "locale": "ar-KW"
+  },
+  {
+    "code": "kg",
+    "name": "Kyrgyzstan",
+    "prefixPhone": "+996",
+    "languageCode": "ky",
+    "currencyCode": "KGS",
+    "phoneMaxlength": 9,
+    "locale": "ky-KG"
+  },
+  {
+    "code": "la",
+    "name": "Laos",
+    "prefixPhone": "+856",
+    "languageCode": "lo",
+    "currencyCode": "LAK",
+    "phoneMaxlength": 8,
+    "locale": "lo-LA"
+  },
+  {
+    "code": "lv",
+    "name": "Latvia",
+    "prefixPhone": "+371",
+    "languageCode": "lv",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 8,
+    "locale": "lv-LV"
+  },
+  {
+    "code": "lb",
+    "name": "Lebanon",
+    "prefixPhone": "+961",
+    "languageCode": "ar",
+    "currencyCode": "LBP",
+    "phoneMaxlength": 8,
+    "locale": "ar-LB"
+  },
+  {
+    "code": "ls",
+    "name": "Lesotho",
+    "prefixPhone": "+266",
+    "languageCode": "st",
+    "currencyCode": "LSL",
+    "phoneMaxlength": 8,
+    "locale": "st-LS"
+  },
+  {
+    "code": "lr",
+    "name": "Liberia",
+    "prefixPhone": "+231",
+    "languageCode": "en",
+    "currencyCode": "LRD",
+    "phoneMaxlength": 9,
+    "locale": "en-LR"
+  },
+  {
+    "code": "ly",
+    "name": "Libya",
+    "prefixPhone": "+218",
+    "languageCode": "ar",
+    "currencyCode": "LYD",
+    "phoneMaxlength": 9,
+    "locale": "ar-LY"
+  },
+  {
+    "code": "li",
+    "name": "Liechtenstein",
+    "prefixPhone": "+423",
+    "languageCode": "de",
+    "currencyCode": "CHF",
+    "phoneMaxlength": 7,
+    "locale": "de-LI"
+  },
+  {
+    "code": "lt",
+    "name": "Lithuania",
+    "prefixPhone": "+370",
+    "languageCode": "lt",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 8,
+    "locale": "lt-LT"
+  },
+  {
+    "code": "lu",
+    "name": "Luxembourg",
+    "prefixPhone": "+352",
+    "languageCode": "fr",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 9,
+    "locale": "fr-LU"
+  },
+  {
+    "code": "mg",
+    "name": "Madagascar",
+    "prefixPhone": "+261",
+    "languageCode": "mg",
+    "currencyCode": "MGA",
+    "phoneMaxlength": 9,
+    "locale": "mg-MG"
+  },
+  {
+    "code": "mw",
+    "name": "Malawi",
+    "prefixPhone": "+265",
+    "languageCode": "en",
+    "currencyCode": "MWK",
+    "phoneMaxlength": 9,
+    "locale": "en-MW"
+  },
+  {
+    "code": "my",
+    "name": "Malaysia",
+    "prefixPhone": "+60",
+    "languageCode": "ms",
+    "currencyCode": "MYR",
+    "phoneMaxlength": 10,
+    "locale": "ms-MY"
+  },
+  {
+    "code": "mv",
+    "name": "Maldives",
+    "prefixPhone": "+960",
+    "languageCode": "dv",
+    "currencyCode": "MVR",
+    "phoneMaxlength": 7,
+    "locale": "dv-MV"
+  },
+  {
+    "code": "ml",
+    "name": "Mali",
+    "prefixPhone": "+223",
+    "languageCode": "fr",
+    "currencyCode": "XOF",
+    "phoneMaxlength": 8,
+    "locale": "fr-ML"
+  },
+  {
+    "code": "mt",
+    "name": "Malta",
+    "prefixPhone": "+356",
+    "languageCode": "mt",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 8,
+    "locale": "mt-MT"
+  },
+  {
+    "code": "mh",
+    "name": "Marshall Islands",
+    "prefixPhone": "+692",
+    "languageCode": "en",
+    "currencyCode": "USD",
+    "phoneMaxlength": 7,
+    "locale": "en-MH"
+  },
+  {
+    "code": "mr",
+    "name": "Mauritania",
+    "prefixPhone": "+222",
+    "languageCode": "ar",
+    "currencyCode": "MRU",
+    "phoneMaxlength": 8,
+    "locale": "ar-MR"
+  },
+  {
+    "code": "mu",
+    "name": "Mauritius",
+    "prefixPhone": "+230",
+    "languageCode": "en",
+    "currencyCode": "MUR",
+    "phoneMaxlength": 8,
+    "locale": "en-MU"
+  },
+  {
+    "code": "mx",
+    "name": "Mexico",
+    "prefixPhone": "+52",
+    "languageCode": "es",
+    "currencyCode": "MXN",
+    "phoneMaxlength": 10,
+    "locale": "es-MX"
+  },
+  {
+    "code": "fm",
+    "name": "Micronesia",
+    "prefixPhone": "+691",
+    "languageCode": "en",
+    "currencyCode": "USD",
+    "phoneMaxlength": 7,
+    "locale": "en-FM"
+  },
+  {
+    "code": "md",
+    "name": "Moldova",
+    "prefixPhone": "+373",
+    "languageCode": "ro",
+    "currencyCode": "MDL",
+    "phoneMaxlength": 8,
+    "locale": "ro-MD"
+  },
+  {
+    "code": "mc",
+    "name": "Monaco",
+    "prefixPhone": "+377",
+    "languageCode": "fr",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 8,
+    "locale": "fr-MC"
+  },
+  {
+    "code": "mn",
+    "name": "Mongolia",
+    "prefixPhone": "+976",
+    "languageCode": "mn",
+    "currencyCode": "MNT",
+    "phoneMaxlength": 8,
+    "locale": "mn-MN"
+  },
+  {
+    "code": "me",
+    "name": "Montenegro",
+    "prefixPhone": "+382",
+    "languageCode": "sr",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 8,
+    "locale": "sr-ME"
+  },
+  {
+    "code": "ma",
+    "name": "Morocco",
+    "prefixPhone": "+212",
+    "languageCode": "ar",
+    "currencyCode": "MAD",
+    "phoneMaxlength": 9,
+    "locale": "ar-MA"
+  },
+  {
+    "code": "mz",
+    "name": "Mozambique",
+    "prefixPhone": "+258",
+    "languageCode": "pt",
+    "currencyCode": "MZN",
+    "phoneMaxlength": 9,
+    "locale": "pt-MZ"
+  },
+  {
+    "code": "mm",
+    "name": "Myanmar",
+    "prefixPhone": "+95",
+    "languageCode": "my",
+    "currencyCode": "MMK",
+    "phoneMaxlength": 9,
+    "locale": "my-MM"
+  },
+  {
+    "code": "na",
+    "name": "Namibia",
+    "prefixPhone": "+264",
+    "languageCode": "en",
+    "currencyCode": "NAD",
+    "phoneMaxlength": 9,
+    "locale": "en-NA"
+  },
+  {
+    "code": "nr",
+    "name": "Nauru",
+    "prefixPhone": "+674",
+    "languageCode": "en",
+    "currencyCode": "AUD",
+    "phoneMaxlength": 7,
+    "locale": "en-NR"
+  },
+  {
+    "code": "np",
+    "name": "Nepal",
+    "prefixPhone": "+977",
+    "languageCode": "ne",
+    "currencyCode": "NPR",
+    "phoneMaxlength": 10,
+    "locale": "ne-NP"
+  },
+  {
+    "code": "nl",
+    "name": "Netherlands",
+    "prefixPhone": "+31",
+    "languageCode": "nl",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 9,
+    "locale": "nl-NL"
+  },
+  {
+    "code": "nz",
+    "name": "New Zealand",
+    "prefixPhone": "+64",
+    "languageCode": "en",
+    "currencyCode": "NZD",
+    "phoneMaxlength": 9,
+    "locale": "en-NZ"
+  },
+  {
+    "code": "ni",
+    "name": "Nicaragua",
+    "prefixPhone": "+505",
+    "languageCode": "es",
+    "currencyCode": "NIO",
+    "phoneMaxlength": 8,
+    "locale": "es-NI"
+  },
+  {
+    "code": "ne",
+    "name": "Niger",
+    "prefixPhone": "+227",
+    "languageCode": "fr",
+    "currencyCode": "XOF",
+    "phoneMaxlength": 8,
+    "locale": "fr-NE"
+  },
+  {
+    "code": "ng",
+    "name": "Nigeria",
+    "prefixPhone": "+234",
+    "languageCode": "en",
+    "currencyCode": "NGN",
+    "phoneMaxlength": 10,
+    "locale": "en-NG"
+  },
+  {
+    "code": "no",
+    "name": "Norway",
+    "prefixPhone": "+47",
+    "languageCode": "no",
+    "currencyCode": "NOK",
+    "phoneMaxlength": 8,
+    "locale": "no-NO"
+  },
+  {
+    "code": "om",
+    "name": "Oman",
+    "prefixPhone": "+968",
+    "languageCode": "ar",
+    "currencyCode": "OMR",
+    "phoneMaxlength": 8,
+    "locale": "ar-OM"
+  },
+  {
+    "code": "pk",
+    "name": "Pakistan",
+    "prefixPhone": "+92",
+    "languageCode": "ur",
+    "currencyCode": "PKR",
+    "phoneMaxlength": 10,
+    "locale": "ur-PK"
+  },
+  {
+    "code": "pw",
+    "name": "Palau",
+    "prefixPhone": "+680",
+    "languageCode": "en",
+    "currencyCode": "USD",
+    "phoneMaxlength": 7,
+    "locale": "en-PW"
+  },
+  {
+    "code": "pa",
+    "name": "Panama",
+    "prefixPhone": "+507",
+    "languageCode": "es",
+    "currencyCode": "PAB",
+    "phoneMaxlength": 8,
+    "locale": "es-PA"
+  },
+  {
+    "code": "pg",
+    "name": "Papua New Guinea",
+    "prefixPhone": "+675",
+    "languageCode": "en",
+    "currencyCode": "PGK",
+    "phoneMaxlength": 8,
+    "locale": "en-PG"
+  },
+  {
+    "code": "py",
+    "name": "Paraguay",
+    "prefixPhone": "+595",
+    "languageCode": "es",
+    "currencyCode": "PYG",
+    "phoneMaxlength": 9,
+    "locale": "es-PY"
+  },
+  {
+    "code": "pe",
+    "name": "Peru",
+    "prefixPhone": "+51",
+    "languageCode": "es",
+    "currencyCode": "PEN",
+    "phoneMaxlength": 9,
+    "locale": "es-PE"
+  },
+  {
+    "code": "ph",
+    "name": "Philippines",
+    "prefixPhone": "+63",
+    "languageCode": "tl",
+    "currencyCode": "PHP",
+    "phoneMaxlength": 10,
+    "locale": "tl-PH"
+  },
+  {
+    "code": "pl",
+    "name": "Poland",
+    "prefixPhone": "+48",
+    "languageCode": "pl",
+    "currencyCode": "PLN",
+    "phoneMaxlength": 9,
+    "locale": "pl-PL"
+  },
+  {
+    "code": "pt",
+    "name": "Portugal",
+    "prefixPhone": "+351",
+    "languageCode": "pt",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 9,
+    "locale": "pt-PT"
+  },
+  {
+    "code": "qa",
+    "name": "Qatar",
+    "prefixPhone": "+974",
+    "languageCode": "ar",
+    "currencyCode": "QAR",
+    "phoneMaxlength": 8,
+    "locale": "ar-QA"
+  },
+  {
+    "code": "ro",
+    "name": "Romania",
+    "prefixPhone": "+40",
+    "languageCode": "ro",
+    "currencyCode": "RON",
+    "phoneMaxlength": 9,
+    "locale": "ro-RO"
+  },
+  {
+    "code": "ru",
+    "name": "Russia",
+    "prefixPhone": "+7",
+    "languageCode": "ru",
+    "currencyCode": "RUB",
+    "phoneMaxlength": 10,
+    "locale": "ru-RU"
+  },
+  {
+    "code": "rw",
+    "name": "Rwanda",
+    "prefixPhone": "+250",
+    "languageCode": "rw",
+    "currencyCode": "RWF",
+    "phoneMaxlength": 9,
+    "locale": "rw-RW"
+  },
+  {
+    "code": "kn",
+    "name": "Saint Kitts and Nevis",
+    "prefixPhone": "+1-869",
+    "languageCode": "en",
+    "currencyCode": "XCD",
+    "phoneMaxlength": 10,
+    "locale": "en-KN"
+  },
+  {
+    "code": "lc",
+    "name": "Saint Lucia",
+    "prefixPhone": "+1-758",
+    "languageCode": "en",
+    "currencyCode": "XCD",
+    "phoneMaxlength": 10,
+    "locale": "en-LC"
+  },
+  {
+    "code": "vc",
+    "name": "Saint Vincent and the Grenadines",
+    "prefixPhone": "+1-784",
+    "languageCode": "en",
+    "currencyCode": "XCD",
+    "phoneMaxlength": 10,
+    "locale": "en-VC"
+  },
+  {
+    "code": "ws",
+    "name": "Samoa",
+    "prefixPhone": "+685",
+    "languageCode": "sm",
+    "currencyCode": "WST",
+    "phoneMaxlength": 7,
+    "locale": "sm-WS"
+  },
+  {
+    "code": "sm",
+    "name": "San Marino",
+    "prefixPhone": "+378",
+    "languageCode": "it",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 10,
+    "locale": "it-SM"
+  },
+  {
+    "code": "st",
+    "name": "Sao Tome and Principe",
+    "prefixPhone": "+239",
+    "languageCode": "pt",
+    "currencyCode": "STN",
+    "phoneMaxlength": 7,
+    "locale": "pt-ST"
+  },
+  {
+    "code": "sa",
+    "name": "Saudi Arabia",
+    "prefixPhone": "+966",
+    "languageCode": "ar",
+    "currencyCode": "SAR",
+    "phoneMaxlength": 9,
+    "locale": "ar-SA"
+  },
+  {
+    "code": "sn",
+    "name": "Senegal",
+    "prefixPhone": "+221",
+    "languageCode": "fr",
+    "currencyCode": "XOF",
+    "phoneMaxlength": 9,
+    "locale": "fr-SN"
+  },
+  {
+    "code": "rs",
+    "name": "Serbia",
+    "prefixPhone": "+381",
+    "languageCode": "sr",
+    "currencyCode": "RSD",
+    "phoneMaxlength": 9,
+    "locale": "sr-RS"
+  },
+  {
+    "code": "sc",
+    "name": "Seychelles",
+    "prefixPhone": "+248",
+    "languageCode": "en",
+    "currencyCode": "SCR",
+    "phoneMaxlength": 7,
+    "locale": "en-SC"
+  },
+  {
+    "code": "sl",
+    "name": "Sierra Leone",
+    "prefixPhone": "+232",
+    "languageCode": "en",
+    "currencyCode": "SLL",
+    "phoneMaxlength": 8,
+    "locale": "en-SL"
+  },
+  {
+    "code": "sg",
+    "name": "Singapore",
+    "prefixPhone": "+65",
+    "languageCode": "en",
+    "currencyCode": "SGD",
+    "phoneMaxlength": 8,
+    "locale": "en-SG"
+  },
+  {
+    "code": "sk",
+    "name": "Slovakia",
+    "prefixPhone": "+421",
+    "languageCode": "sk",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 9,
+    "locale": "sk-SK"
+  },
+  {
+    "code": "si",
+    "name": "Slovenia",
+    "prefixPhone": "+386",
+    "languageCode": "sl",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 8,
+    "locale": "sl-SI"
+  },
+  {
+    "code": "sb",
+    "name": "Solomon Islands",
+    "prefixPhone": "+677",
+    "languageCode": "en",
+    "currencyCode": "SBD",
+    "phoneMaxlength": 7,
+    "locale": "en-SB"
+  },
+  {
+    "code": "so",
+    "name": "Somalia",
+    "prefixPhone": "+252",
+    "languageCode": "so",
+    "currencyCode": "SOS",
+    "phoneMaxlength": 9,
+    "locale": "so-SO"
+  },
+  {
+    "code": "za",
+    "name": "South Africa",
+    "prefixPhone": "+27",
+    "languageCode": "en",
+    "currencyCode": "ZAR",
+    "phoneMaxlength": 9,
+    "locale": "en-ZA"
+  },
+  {
+    "code": "ss",
+    "name": "South Sudan",
+    "prefixPhone": "+211",
+    "languageCode": "en",
+    "currencyCode": "SSP",
+    "phoneMaxlength": 9,
+    "locale": "en-SS"
+  },
+  {
+    "code": "es",
+    "name": "Spain",
+    "prefixPhone": "+34",
+    "languageCode": "es",
+    "currencyCode": "EUR",
+    "phoneMaxlength": 9,
+    "locale": "es-ES"
+  },
+  {
+    "code": "lk",
+    "name": "Sri Lanka",
+    "prefixPhone": "+94",
+    "languageCode": "si",
+    "currencyCode": "LKR",
+    "phoneMaxlength": 9,
+    "locale": "si-LK"
+  },
+  {
+    "code": "sd",
+    "name": "Sudan",
+    "prefixPhone": "+249",
+    "languageCode": "ar",
+    "currencyCode": "SDG",
+    "phoneMaxlength": 9,
+    "locale": "ar-SD"
+  },
+  {
+    "code": "sr",
+    "name": "Suriname",
+    "prefixPhone": "+597",
+    "languageCode": "nl",
+    "currencyCode": "SRD",
+    "phoneMaxlength": 7,
+    "locale": "nl-SR"
+  },
+  {
+    "code": "se",
+    "name": "Sweden",
+    "prefixPhone": "+46",
+    "languageCode": "sv",
+    "currencyCode": "SEK",
+    "phoneMaxlength": 9,
+    "locale": "sv-SE"
+  },
+  {
+    "code": "ch",
+    "name": "Switzerland",
+    "prefixPhone": "+41",
+    "languageCode": "de",
+    "currencyCode": "CHF",
+    "phoneMaxlength": 9,
+    "locale": "de-CH"
+  },
+  {
+    "code": "sy",
+    "name": "Syria",
+    "prefixPhone": "+963",
+    "languageCode": "ar",
+    "currencyCode": "SYP",
+    "phoneMaxlength": 9,
+    "locale": "ar-SY"
+  },
+  {
+    "code": "tw",
+    "name": "Taiwan",
+    "prefixPhone": "+886",
+    "languageCode": "zh",
+    "currencyCode": "TWD",
+    "phoneMaxlength": 9,
+    "locale": "zh-TW"
+  },
+  {
+    "code": "tj",
+    "name": "Tajikistan",
+    "prefixPhone": "+992",
+    "languageCode": "tg",
+    "currencyCode": "TJS",
+    "phoneMaxlength": 9,
+    "locale": "tg-TJ"
+  },
+  {
+    "code": "tz",
+    "name": "Tanzania",
+    "prefixPhone": "+255",
+    "languageCode": "sw",
+    "currencyCode": "TZS",
+    "phoneMaxlength": 9,
+    "locale": "sw-TZ"
+  },
+  {
+    "code": "th",
+    "name": "Thailand",
+    "prefixPhone": "+66",
+    "languageCode": "th",
+    "currencyCode": "THB",
+    "phoneMaxlength": 9,
+    "locale": "th-TH"
+  },
+  {
+    "code": "tl",
+    "name": "Timor-Leste",
+    "prefixPhone": "+670",
+    "languageCode": "pt",
+    "currencyCode": "USD",
+    "phoneMaxlength": 8,
+    "locale": "pt-TL"
+  },
+  {
+    "code": "tg",
+    "name": "Togo",
+    "prefixPhone": "+228",
+    "languageCode": "fr",
+    "currencyCode": "XOF",
+    "phoneMaxlength": 8,
+    "locale": "fr-TG"
+  },
+  {
+    "code": "to",
+    "name": "Tonga",
+    "prefixPhone": "+676",
+    "languageCode": "to",
+    "currencyCode": "TOP",
+    "phoneMaxlength": 7,
+    "locale": "to-TO"
+  },
+  {
+    "code": "tt",
+    "name": "Trinidad and Tobago",
+    "prefixPhone": "+1-868",
+    "languageCode": "en",
+    "currencyCode": "TTD",
+    "phoneMaxlength": 10,
+    "locale": "en-TT"
+  },
+  {
+    "code": "tn",
+    "name": "Tunisia",
+    "prefixPhone": "+216",
+    "languageCode": "ar",
+    "currencyCode": "TND",
+    "phoneMaxlength": 8,
+    "locale": "ar-TN"
+  },
+  {
+    "code": "tr",
+    "name": "Turkey",
+    "prefixPhone": "+90",
+    "languageCode": "tr",
+    "currencyCode": "TRY",
+    "phoneMaxlength": 10,
+    "locale": "tr-TR"
+  },
+  {
+    "code": "tm",
+    "name": "Turkmenistan",
+    "prefixPhone": "+993",
+    "languageCode": "tk",
+    "currencyCode": "TMT",
+    "phoneMaxlength": 8,
+    "locale": "tk-TM"
+  },
+  {
+    "code": "tv",
+    "name": "Tuvalu",
+    "prefixPhone": "+688",
+    "languageCode": "en",
+    "currencyCode": "AUD",
+    "phoneMaxlength": 6,
+    "locale": "en-TV"
+  },
+  {
+    "code": "ug",
+    "name": "Uganda",
+    "prefixPhone": "+256",
+    "languageCode": "en",
+    "currencyCode": "UGX",
+    "phoneMaxlength": 9,
+    "locale": "en-UG"
+  },
+  {
+    "code": "ua",
+    "name": "Ukraine",
+    "prefixPhone": "+380",
+    "languageCode": "uk",
+    "currencyCode": "UAH",
+    "phoneMaxlength": 9,
+    "locale": "uk-UA"
+  },
+  {
+    "code": "ae",
+    "name": "United Arab Emirates",
+    "prefixPhone": "+971",
+    "languageCode": "ar",
+    "currencyCode": "AED",
+    "phoneMaxlength": 9,
+    "locale": "ar-AE"
+  },
+  {
+    "code": "gb",
+    "name": "United Kingdom",
+    "prefixPhone": "+44",
+    "languageCode": "en",
+    "currencyCode": "GBP",
+    "phoneMaxlength": 10,
+    "locale": "en-GB"
+  },
+  {
+    "code": "us",
+    "name": "United States",
+    "prefixPhone": "+1",
+    "languageCode": "en",
+    "currencyCode": "USD",
+    "phoneMaxlength": 10,
+    "locale": "en-US"
+  },
+  {
+    "code": "uy",
+    "name": "Uruguay",
+    "prefixPhone": "+598",
+    "languageCode": "es",
+    "currencyCode": "UYU",
+    "phoneMaxlength": 8,
+    "locale": "es-UY"
+  },
+  {
+    "code": "uz",
+    "name": "Uzbekistan",
+    "prefixPhone": "+998",
+    "languageCode": "uz",
+    "currencyCode": "UZS",
+    "phoneMaxlength": 9,
+    "locale": "uz-UZ"
+  },
+  {
+    "code": "vu",
+    "name": "Vanuatu",
+    "prefixPhone": "+678",
+    "languageCode": "bi",
+    "currencyCode": "VUV",
+    "phoneMaxlength": 7,
+    "locale": "bi-VU"
+  },
+  {
+    "code": "ve",
+    "name": "Venezuela",
+    "prefixPhone": "+58",
+    "languageCode": "es",
+    "currencyCode": "VES",
+    "phoneMaxlength": 10,
+    "locale": "es-VE"
+  },
+  {
+    "code": "vn",
+    "name": "Vietnam",
+    "prefixPhone": "+84",
+    "languageCode": "vi",
+    "currencyCode": "VND",
+    "phoneMaxlength": 10,
+    "locale": "vi-VN"
+  },
+  {
+    "code": "ye",
+    "name": "Yemen",
+    "prefixPhone": "+967",
+    "languageCode": "ar",
+    "currencyCode": "YER",
+    "phoneMaxlength": 9,
+    "locale": "ar-YE"
+  },
+  {
+    "code": "zm",
+    "name": "Zambia",
+    "prefixPhone": "+260",
+    "languageCode": "en",
+    "currencyCode": "ZMW",
+    "phoneMaxlength": 9,
+    "locale": "en-ZM"
+  },
+  {
+    "code": "zw",
+    "name": "Zimbabwe",
+    "prefixPhone": "+263",
+    "languageCode": "en",
+    "currencyCode": "ZWL",
+    "phoneMaxlength": 9,
+    "locale": "en-ZW"
+  }
+]

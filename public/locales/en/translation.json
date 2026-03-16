@@ -1,0 +1,582 @@
+{
+  "permissions": {
+    "view_banners": "View All Banners",
+    "create_banner": "Create New Banner",
+    "view_detail_banner": "View Banner Details",
+    "edit_banner": "Edit Banner",
+    "delete_banner": "Delete Banner",
+    "view_brands": "View All Brands",
+    "create_brand": "Create New Brand",
+    "view_detail_brand": "View Brand Details",
+    "edit_brand": "Edit Brand",
+    "delete_brand": "Delete Brand",
+    "view_customers": "View All Customers",
+    "view_detail_customer": "View Customer Details",
+    "create_customer": "Create New Customer",
+    "edit_customer": "Edit Customer",
+    "delete_customer": "Delete Customer",
+    "view_loan_contracts": "View All Loan Contracts",
+    "edit_loan_contract": "Edit Loan Contract",
+    "view_detail_loan_contract": "View Loan Contract Details",
+    "approve_loan_contract": "Approve Loan Contract",
+    "reject_loan_contract": "Reject Loan Contract",
+    "view_permissions": "View All Permissions",
+    "create_permissions": "Create New Permission",
+    "refresh_permissions": "Refresh Permissions",
+    "view_products": "View All Products",
+    "view_detail_product": "View Product Details",
+    "create_product": "Create New Product",
+    "edit_product": "Edit Product",
+    "delete_product": "Delete Product",
+    "view_categories": "View All Categories",
+    "view_detail_category": "View Category Details",
+    "create_category": "Create New Category",
+    "edit_category": "Edit Category",
+    "delete_category": "Delete Category",
+    "view_regions": "View All Regions",
+    "view_detail_region": "View Region Details",
+    "create_region": "Create New Region",
+    "edit_region": "Edit Region",
+    "delete_region": "Delete Region",
+    "view_roles": "View All Roles",
+    "view_detail_role": "View Role Details",
+    "create_role_permission": "Create New Role Permission",
+    "update_role_permission": "Update Role Permission",
+    "view_system_users": "View All System Users",
+    "create_system_user": "Create New System User",
+    "update_system_user": "Update System User",
+    "view_detail_system_user": "View System User Details",
+    "delete_system_user": "Delete System User",
+    "update_payment_status": "Update Payment Status"
+  },
+
+  "groupPermissions": {
+    "banner": "Banner",
+    "brand": "Brand",
+    "customer": "Customer",
+    "loan_contract": "Loan Contract",
+    "permission": "Permission",
+    "product": "Product",
+    "category": "Category",
+    "region": "Region",
+    "role": "Role",
+    "system_user": "System User"
+  },
+
+  "all": "All",
+  "vn": "Viet Nam",
+  "th": "Thailand",
+  "my": "Malaysia",
+  "id": "Indonesia",
+
+  "dashboard": {
+    "title": "Dashboard"
+  },
+
+  "header": {
+    "dashboard": {
+      "title": "Dashboard"
+    },
+    "customerManage": {
+      "title": "Customer Management"
+    },
+    "contractManage": {
+      "title": "Contract Management"
+    },
+    "brandManage": {
+      "title": "Brand Management"
+    },
+    "regionManage": {
+      "title": "Region Management"
+    },
+    "productManage": {
+      "title": "Product Management"
+    }
+  },
+
+  "pages": {
+    "login": "Login",
+    "dashboard": "Dashboard",
+    "customerManage": "Customer Management",
+    "contractManage": "Contract Management",
+    "categoryManage": "Category Management",
+    "affiliateManage": "Affiliate Management",
+    "unauthorized": "Unauthorized"
+  },
+
+  "affiliateManagement": {
+    "title": "Affiliate Management",
+    "sidebar": {
+      "affiliateList": "Affiliate List",
+      "affiliateCreate": "Create Affiliate"
+    },
+    "table": {
+      "id": "ID",
+      "title": "Title",
+      "thumbnail": "Thumbnail",
+      "nameIdol": "Idol Name",
+      "idRoomLive": "Live Room ID",
+      "path": "Path",
+      "target": "Target",
+      "status": "Status",
+      "category": "Category"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+
+  "affiliate": {
+    "create": {
+      "title": "Create New Affiliate"
+    },
+
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Enter title...",
+      "nameIdol": "Idol Name",
+      "nameIdolPlaceholder": "Enter idol name...",
+      "idRoomLive": "Live Room ID",
+      "idRoomLivePlaceholder": "Enter live room ID...",
+      "path": "Path",
+      "pathPlaceholder": "Enter path...",
+      "category": "Category",
+      "categoryPlaceholder": "Select category...",
+      "target": "Target",
+      "targetPlaceholder": "Select target...",
+      "thumbnailUrl": "Thumbnail Image",
+      "subMediaUrl": "Sub Media Image",
+      "avatarIdolUrl": "Idol Avatar",
+      "isActive": "Active"
+    },
+    "target": {
+      "self": "Same Tab",
+      "blank": "New Tab"
+    }
+  },
+
+  "categoryManagement": {
+    "title": "Category Manage",
+    "sidebar": {
+      "categoryList": "Category List",
+      "categoryCreate": "Add Category"
+    },
+    "table": {
+      "name": "Category Name",
+      "order": "Order"
+    },
+    "form": {
+      "nameLabel": "Category Name",
+      "namePlaceholder": "Enter category name...",
+      "slugLabel": "URL Slug",
+      "slugPlaceholder": "Enter URL slug...",
+      "slugRequired": "Please enter URL slug",
+      "orderLabel": "Order",
+      "orderPlaceholder": "Enter order...",
+      "nameRequired": "Please enter category name",
+      "orderRequired": "Please enter order"
+    }
+  },
+
+  "productManagement": {
+    "title": "Product Management",
+    "sidebar": {
+      "productList": "Product List",
+      "productCreate": "Add Product"
+    },
+    "table": {
+      "name": "Product Name",
+      "shortDescription": "Short Description",
+      "thumbnail": "Thumbnail",
+      "price": "Price",
+      "stock": "Stock"
+    },
+    "form": {
+      "categoryLabel": "Category",
+      "categoryRequired": "Please select a category",
+      "thumbnailUrl": "Thumbnail Image",
+      "nameLabel": "Product Name",
+      "nameRequired": "Please enter product name",
+      "namePlaceholder": "Enter product name...",
+      "dosageLabel": "Dosage",
+      "dosageRequired": "Please enter dosage",
+      "dosagePlaceholder": "Enter dosage...",
+      "slugLabel": "URL Slug",
+      "slugPlaceholder": "Enter URL slug...",
+      "shortDescriptionLabel": "Short Description",
+      "shortDescriptionRequired": "Please enter short description",
+      "shortDescriptionPlaceholder": "Enter short description...",
+      "priceLabel": "Price",
+      "priceRequired": "Please enter price",
+      "pricePlaceholder": "Enter price...",
+      "stockLabel": "Stock Quantity",
+      "stockRequired": "Please enter stock quantity",
+      "stockPlaceholder": "Enter stock quantity...",
+      "genericNameLabel": "Generic Name",
+      "genericNameRequired": "Please enter generic name",
+      "genericNamePlaceholder": "Enter generic name...",
+      "brandNameLabel": "Brand Name",
+      "brandNameRequired": "Please enter brand name",
+      "brandNamePlaceholder": "Enter brand name...",
+      "manufacturerLabel": "Manufacturer",
+      "manufacturerRequired": "Please enter manufacturer",
+      "manufacturerPlaceholder": "Enter manufacturer...",
+      "requiresPrescriptionLabel": "Requires Prescription",
+      "requiresPrescriptionRequired": "Please specify if prescription is required",
+      "storageInstructionLabel": "Storage Instructions",
+      "storageInstructionRequired": "Please enter storage instructions",
+      "descriptionLabel": "Description",
+      "descriptionRequired": "Please enter description",
+      "generalWarningLabel": "General Warning",
+      "generalWarningRequired": "Please enter general warning",
+      "isActiveLabel": "Active Status",
+      "isActiveRequired": "Please set active status",
+      "region": "Region"
+    }
+  },
+
+  "postManagement": {
+    "title": "Post Management",
+    "sidebar": {
+      "postList": "Post List",
+      "postCreate": "Add Post"
+    },
+    "searchPlaceholder": "Search title or content...",
+    "status": {
+      "placeholder": "Filter by status",
+      "draft": "Draft",
+      "published": "Published",
+      "archived": "Archived"
+    },
+    "table": {
+      "title": "Title",
+      "status": "Status",
+      "author": "Author",
+      "publishedAt": "Published At",
+      "viewCount": "Views"
+    },
+    "createButton": "Add Post",
+    "form": {
+      "createSuccess": "Post created successfully",
+      "updateSuccess": "Post updated successfully",
+      "titleLabel": "Title",
+      "titleRequired": "Please enter title",
+      "titlePlaceholder": "Enter post title...",
+      "slugLabel": "URL Slug",
+      "slugRequired": "Please enter slug",
+      "slugPlaceholder": "Enter URL slug...",
+      "excerptLabel": "Excerpt",
+      "excerptPlaceholder": "Enter excerpt...",
+      "thumbnailLabel": "Thumbnail URL",
+      "thumbnailPlaceholder": "Enter thumbnail URL...",
+      "statusLabel": "Status",
+      "authorIdLabel": "Author ID",
+      "authorIdPlaceholder": "Enter author ID...",
+      "contentLabel": "Content",
+      "contentRequired": "Please enter content",
+      "contentPlaceholder": "Enter post content..."
+    }
+  },
+
+  "login": {
+    "title": "Login",
+    "username": "Username",
+    "usernameRequired": "Please enter your username",
+    "usernamePlaceholder": "Enter your username...",
+    "password": "Password",
+    "passwordRequired": "Please enter your password",
+    "passwordPlaceholder": "Enter your password..."
+  },
+
+  "staffManagement": {
+    "title": "Staff Manage",
+    "sidebar": {
+      "staffList": "Staff List",
+      "addStaff": "Add Staff",
+      "staffPositionTitle": "Staff Position",
+      "staffPositionList": "Staff Position List",
+      "permissionManage": "Permission Manage"
+    },
+    "table": {
+      "columns": {
+        "fullname": "Full Name",
+        "username": "Username",
+        "phoneNumber": "Phone Number",
+        "roomName": "Room Name",
+        "roleName": "Role Name"
+      }
+    },
+    "fields": {
+      "avatar": "Avatar",
+      "name": "Name",
+      "desc": "Description",
+      "role": "Role",
+      "username": "Username",
+      "password": "Password",
+      "fullname": "Full Name",
+      "phoneNumber": "Phone Number",
+      "gender": "Gender",
+      "region": "Region"
+    },
+    "modal": {
+      "addPositionTitle": "Add Position",
+      "editPositionTitle": "Edit Position"
+    },
+    "messages": {
+      "createSuccess": "Staff created successfully!",
+      "createError": "Error occurred while creating staff!",
+      "validation": {
+        "nameRequired": "Please enter name",
+        "descRequired": "Please enter description"
+      }
+    },
+    "validation": {
+      "phoneNumberInvalid": "Phone number must have 10-11 digits",
+      "usernameInvalid": "Username must be 3-20 characters long and can only contain letters, numbers, and underscores"
+    },
+    "placeholders": {
+      "name": "Enter position name",
+      "desc": "Enter position description",
+      "username": "Enter username",
+      "password": "Enter password",
+      "fullname": "Enter Full Name",
+      "phoneNumber": "Enter phone number"
+    }
+  },
+
+  "permissionManagement": {
+    "selectRole": "Select Role",
+    "fields": {
+      "name": "Feature Name",
+      "groupName": "Group Name"
+    }
+  },
+
+  "articleManagement": {
+    "title": "Article Management",
+    "sidebar": {
+      "articleList": "Article List",
+      "articleCreate": "Add Article"
+    },
+    "table": {
+      "id": "ID",
+      "title": "Title",
+      "shortDescription": "Short Description",
+      "category": "Category"
+    },
+    "form": {
+      "categoryLabel": "Category",
+      "categoryPlaceholder": "Select category...",
+      "thumbnailLabel": "Thumbnail Image",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Enter title...",
+      "shortDescriptionLabel": "Short Description",
+      "shortDescriptionPlaceholder": "Enter short description...",
+      "contentLabel": "Content",
+      "contentPlaceholder": "Enter content..."
+    }
+  },
+
+  "articleCategoryManagement": {
+    "title": "Article Category Management",
+    "sidebar": {
+      "articleCategoryList": "Article Category List",
+      "articleCategoryCreate": "Add Article Category"
+    },
+    "table": {
+      "id": "ID",
+      "name": "Category Name",
+      "order": "Order"
+    }
+  },
+
+  "systemConfigManagement": {
+    "title": "System Configuration",
+    "sidebar": {
+      "systemConfigList": "System Configuration",
+      "systemConfigAffiliateList": "Affiliate Configuration",
+      "systemConfigSEOList": "SEO Configuration"
+    },
+    "generalConfig": "General Configuration",
+    "adsConfig": "Ads Configuration",
+    "affiliateConfig": "Affiliate Config",
+    "form": {
+      "titleWebsite": "Title Website",
+      "titleWebsitePlaceholder": "Enter title website...",
+      "descriptionWebsite": "Description Website",
+      "descriptionWebsitePlaceholder": "Enter description website...",
+      "faviconWebsite": "Favicon Website",
+      "mailAdmin": "Admin Email",
+      "mailAdminPlaceholder": "Enter admin email...",
+      "adsMetaHeader": "Ads Meta Header",
+      "adsMetaHeaderPlaceholder": "Enter ads meta header...",
+      "defaultRedirect": "Default Redirect",
+      "defaultRedirectPlaceholder": "Enter Default redirect",
+      "googlePlayUrl": "Google play url",
+      "googlePlayUrlPlaceholder": "Enter Google Play URL",
+      "appleStoreUrl": "Apple Store URL",
+      "appleStoreUrlPlaceholder": "Enter Apple Store URL"
+    }
+  },
+
+  "mediaManagement": {
+    "title": "Media Management",
+    "sidebar": {
+      "mediaManagement": "Media List"
+    }
+  },
+
+  "common": {
+    "male": "Male",
+    "female": "Female",
+    "fields": {
+      "action": "Actions",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    },
+    "noData": "No Data",
+    "validation": {
+      "required": "This field is required",
+      "minLength": "Minimum length is 6 characters",
+      "maxLength": "Maximum length is {{max}} characters",
+      "email": "Invalid email address"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "text": {
+      "localTime": "Local Time",
+      "max": "Max",
+      "day": "Day",
+      "month": "Month",
+      "year": "Year"
+    },
+    "actions": {
+      "add": "Add",
+      "edit": "Edit",
+      "delete": "Delete",
+      "export": "Export",
+      "viewDetail": "View Detail",
+      "approve": "Approve",
+      "reject": "Reject",
+      "cancel": "Cancel",
+      "back": "Back",
+      "save": "Save",
+      "create": "Create",
+      "update": "Update",
+      "clear": "Clear",
+      "search": "Search",
+      "submit": "Submit",
+      "find": "Find",
+      "no": "No",
+      "yes": "Yes",
+      "all": "All",
+      "refresh": "Refresh",
+      "actions": "Actions",
+      "deleteConfirm": "Delete Confirm",
+      "deleteDescription": "Are you sure you want to delete this item?"
+    },
+    "pagination": {
+      "of": "of",
+      "items": "items"
+    },
+    "messages": {
+      "fetchError": "Error occurred while loading data",
+      "loadError": "Error occurred while loading data",
+      "featureComingSoon": "Feature is under development",
+      "deleteSuccess": "Brand deleted successfully!",
+      "deleteError": "Error occurred while deleting brand!",
+      "createSuccess": "Created successfully!",
+      "createError": "Error occurred while creating!",
+      "updateSuccess": "Brand updated successfully!",
+      "updateError": "Error occurred while updating brand!",
+      "validationError": "Please check the information!",
+      "invalidId": "Invalid ID",
+      "confirmDelete": "Are you sure you want to delete this item?",
+      "upload": "Upload",
+      "uploadSuccess": "Upload successfully",
+      "uploadError": "Upload failed",
+      "uploading": "Uploading..."
+    },
+    "confirm": {
+      "deleteTitle": "Confirm Delete",
+      "deleteDescription": "Are you sure you want to delete the brand \"{{name}}\"?"
+    },
+    "filters": {
+      "all": "All"
+    }
+  },
+
+  "orderManagement": {
+    "title": "Order Management",
+    "sidebar": {
+      "orderList": "Order List"
+    },
+    "columns": {
+      "orderNumber": "Order Number",
+      "customer": "Customer",
+      "totalAmount": "Total Amount",
+      "status": "Order Status",
+      "paymentMethod": "Payment Method",
+      "paymentStatus": "Payment Status",
+      "createdAt": "Created At",
+      "action": "Action"
+    },
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "preparing": "Preparing",
+      "shipping": "Shipping",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "paymentMethod": {
+      "cod": "Cash on Delivery (COD)",
+      "bank_transfer": "Bank Transfer"
+    },
+    "messages": {
+      "updateStatusSuccess": "Status updated successfully",
+      "error": "An error occurred",
+      "noPayment": "None",
+      "noNote": "None",
+      "noEmail": "None"
+    },
+    "detail": {
+      "title": "Order Detail",
+      "printInvoice": "Print Invoice",
+      "orderInfo": "Order Information",
+      "customerInfo": "Customer Information",
+      "shippingAddress": "Shipping Address",
+      "productList": "Product List",
+      "paymentInfo": "Payment Information",
+      "invoiceInfo": "Invoice Information",
+      "lastUpdated": "Last Updated",
+      "fullName": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "note": "Note",
+      "subtotal": "Subtotal",
+      "shippingFee": "Shipping Fee",
+      "discount": "Discount",
+      "total": "Total",
+      "transactionId": "Transaction ID",
+      "invoiceNumber": "Invoice Number",
+      "issueDate": "Issue Date"
+    },
+    "items": {
+      "product": "Product",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "totalPrice": "Total Price"
+    },
+    "actions": {
+      "view": "View"
+    },
+    "pagination": {
+      "of": "of",
+      "orders": "orders"
+    }
+  }
+}

@@ -1,0 +1,310 @@
+@import "tailwindcss";
+
+/* CSS Variables cho themes */
+:root {
+  --bg-color: #f0f2f5;
+  --text-color: #000000d9;
+  --card-bg: #ffffff;
+  --border-color: #d9d9d9;
+  --hover-bg: #f5f5f5;
+  --header-bg: #ffffff;
+  --sidebar-bg: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --card-bg: #141414;
+  --border-color: #303030;
+  --hover-bg: #1f1f1f;
+  --header-bg: #1f1f1f;
+  --sidebar-bg: #1f1f1f;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Layout container */
+.ant-layout {
+  background-color: var(--bg-color) !important;
+}
+
+.ant-layout-content {
+  background-color: var(--bg-color) !important;
+}
+
+/* Header styles */
+header {
+  background-color: var(--header-bg) !important;
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.3s ease;
+}
+
+/* Sidebar styles */
+.ant-layout-sider {
+  background-color: var(--sidebar-bg) !important;
+}
+
+/* Card styles với theme support */
+.ant-card {
+  background-color: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Menu styles với theme support */
+.ant-menu {
+  background-color: var(--sidebar-bg) !important;
+  transition: background-color 0.3s ease;
+}
+
+[data-theme="dark"] .ant-menu {
+  background-color: var(--sidebar-bg) !important;
+  color: var(--text-color) !important;
+}
+
+[data-theme="dark"] .ant-menu-item {
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] .ant-menu-item:hover {
+  background-color: var(--hover-bg) !important;
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] .ant-menu-item-selected {
+  background-color: #1677ff !important;
+  color: #ffffff !important;
+}
+
+/* Submenu styles */
+[data-theme="dark"] .ant-menu-submenu-title {
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] .ant-menu-submenu-title:hover {
+  color: #ffffff !important;
+}
+
+/* Table styles với theme support */
+[data-theme="dark"] .ant-table {
+  background-color: var(--card-bg) !important;
+}
+
+[data-theme="dark"] .ant-table-thead > tr > th {
+  background-color: var(--hover-bg) !important;
+  color: var(--text-color) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+[data-theme="dark"] .ant-table-tbody > tr > td {
+  background-color: var(--card-bg) !important;
+  color: var(--text-color) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+[data-theme="dark"] .ant-table-tbody > tr:hover > td {
+  background-color: var(--hover-bg) !important;
+}
+
+/* Form styles với theme support */
+[data-theme="dark"] .ant-input {
+  background-color: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+[data-theme="dark"] .ant-input:focus {
+  border-color: #1677ff !important;
+  box-shadow: 0 0 0 2px rgba(22, 119, 255, 0.2) !important;
+}
+
+[data-theme="dark"] .ant-select-selector {
+  background-color: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Dropdown styles */
+[data-theme="dark"] .ant-dropdown {
+  background-color: var(--card-bg) !important;
+}
+
+[data-theme="dark"] .ant-dropdown-menu {
+  background-color: var(--card-bg) !important;
+}
+
+[data-theme="dark"] .ant-dropdown-menu-item {
+  color: var(--text-color) !important;
+}
+
+[data-theme="dark"] .ant-dropdown-menu-item:hover {
+  background-color: var(--hover-bg) !important;
+}
+
+/* Button styles for theme toggle */
+.theme-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+  background-color: var(--hover-bg) !important;
+}
+
+.ant-menu {
+  border-inline-end: 0 !important;
+}
+
+.ant-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-card .ant-card-head {
+  padding: 0 15px;
+  min-height: 40px;
+}
+
+.ant-card .ant-card-body {
+  padding: 15px;
+}
+
+/* Custom styles for notification dropdown */
+.custom-notification-dropdown .ant-dropdown-menu {
+  padding: 0 !important;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12);
+}
+
+.custom-notification-dropdown .ant-dropdown-menu-item {
+  padding: 0 !important;
+}
+
+/* Add animation for notification badge */
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(24, 144, 255, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 6px rgba(24, 144, 255, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(24, 144, 255, 0);
+  }
+}
+
+.ant-badge-count:not([class*="ant-badge-count-"]) {
+  animation: pulse 2s infinite;
+}
+
+/* Custom scrollbar styles */
+.scrollbar-hide {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Smooth scroll behavior */
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Navigation scroll container */
+.nav-scroll-container {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.nav-scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Navigation scroll buttons */
+.nav-scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-scroll-button:hover {
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-scroll-button-left {
+  left: 4px;
+}
+
+.nav-scroll-button-right {
+  right: 4px;
+}
+
+/* Dark mode styles for scroll buttons */
+[data-theme="dark"] .nav-scroll-button {
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .nav-scroll-button:hover {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+}
+
+/* Navigation container gradient overlay */
+.nav-container::before,
+.nav-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  pointer-events: none;
+  z-index: 5;
+  transition: opacity 0.2s ease;
+}
+
+.nav-container::before {
+  left: 0;
+  background: linear-gradient(to right, var(--header-bg), transparent);
+}
+
+.nav-container::after {
+  right: 0;
+  background: linear-gradient(to left, var(--header-bg), transparent);
+}
+
+button {
+  cursor: pointer;
+}

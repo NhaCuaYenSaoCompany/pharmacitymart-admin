@@ -1,0 +1,502 @@
+{
+  "vn": "Việt Nam",
+  "th": "Thái Lan",
+  "header": {
+    "customerManage": {
+      "title": "Quản lý khách hàng"
+    },
+    "contractManage": {
+      "title": "Quản lý hợp đồng"
+    }
+  },
+  "pages": {
+    "login": "Đăng nhập",
+    "dashboard": "Bảng điều khiển",
+    "customerManage": "Quản lý khách hàng",
+    "contractManage": "Quản lý hợp đồng",
+    "affiliateManage": "Quản lý liên kết",
+    "unauthorized": "Không có quyền truy cập"
+  },
+  "affiliateManagement": {
+    "title": "Quản lý liên kết",
+    "table": {
+      "id": "ID",
+      "title": "Tiêu đề",
+      "thumbnail": "Hình ảnh",
+      "nameIdol": "Tên Idol",
+      "idRoomLive": "ID Phòng Live",
+      "path": "Đường dẫn",
+      "target": "Mục tiêu",
+      "status": "Trạng thái",
+      "category": "Danh mục"
+    },
+    "status": {
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động"
+    }
+  },
+  "affiliate": {
+    "create": {
+      "title": "Tạo mới liên kết"
+    },
+    "form": {
+      "title": "Tiêu đề",
+      "titlePlaceholder": "Nhập tiêu đề...",
+      "nameIdol": "Tên Idol",
+      "nameIdolPlaceholder": "Nhập tên Idol...",
+      "idRoomLive": "ID Phòng Live",
+      "idRoomLivePlaceholder": "Nhập ID phòng live...",
+      "path": "Đường dẫn",
+      "pathPlaceholder": "Nhập đường dẫn...",
+      "category": "Danh mục",
+      "categoryPlaceholder": "Chọn danh mục...",
+      "target": "Mục tiêu",
+      "targetPlaceholder": "Chọn mục tiêu...",
+      "thumbnailUrl": "Hình ảnh thu nhỏ",
+      "subMediaUrl": "Hình ảnh phụ",
+      "avatarIdolUrl": "Avatar Idol",
+      "isActive": "Kích hoạt"
+    },
+    "target": {
+      "self": "Cùng tab",
+      "blank": "Tab mới"
+    }
+  },
+  "customerManage": {
+    "detailTitle": "Chi tiết khách hàng",
+    "sections": {
+      "basicInfo": "Thông tin cơ bản",
+      "financialInfo": "Thông tin tài chính",
+      "bankInfo": "Thông tin ngân hàng",
+      "identityInfo": "Thông tin giấy tờ"
+    },
+    "fields": {
+      "fullName": "Họ và tên",
+      "fullName.placeholder": "Nhập họ và tên...",
+      "fullName.required": "Vui lòng nhập họ và tên!",
+      "phoneNumber": "Số điện thoại",
+      "phoneNumber.placeholder": "Nhập số điện thoại...",
+      "phoneNumber.required": "Vui lòng nhập số điện thoại!",
+      "identityNumber": "Số CCCD",
+      "password": "Mật khẩu",
+      "password.placeholder": "Nhập mật khẩu...",
+      "password.required": "Vui lòng nhập mật khẩu!",
+      "bankCode": "Ngân hàng",
+      "bankCode.placeholder": "Chọn ngân hàng...",
+      "bankCode.required": "Vui lòng chọn ngân hàng!",
+      "bankName": "Tên ngân hàng",
+      "bankAccountNumber": "Số tài khoản ngân hàng",
+      "bankAccountNumber.placeholder": "Nhập số tài khoản...",
+      "bankAccountNumber.required": "Vui lòng nhập số tài khoản ngân hàng!",
+      "totalLoanAmount": "Tổng số tiền đã vay",
+      "totalDebtAmount": "Tổng số tiền nợ",
+      "totalPaidAmount": "Tổng số tiền đã thanh toán",
+      "frontIdentityCard": "Ảnh CCCD mặt trước",
+      "backIdentityCard": "Ảnh CCCD mặt sau",
+      "selfieIdentityCard": "Ảnh selfie với CCCD"
+    },
+    "actions": {
+      "create": "Tạo khách hàng"
+    },
+    "messages": {
+      "banksLoadError": "Lỗi tải danh sách ngân hàng",
+      "createSuccess": "Tạo khách hàng thành công!",
+      "createSuccessDescription": "Khách hàng đã được tạo thành công trong hệ thống.",
+      "createError": "Có lỗi xảy ra khi tạo khách hàng!",
+      "createErrorDescription": "Vui lòng thử lại sau hoặc liên hệ quản trị viên.",
+      "fetchDetailError": "Có lỗi xảy ra khi tải thông tin khách hàng",
+      "customerNotFound": "Không tìm thấy thông tin khách hàng"
+    },
+    "validation": {
+      "phoneNumberInvalid": "Số điện thoại phải có 10-11 chữ số",
+      "passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự"
+    }
+  },
+  "productManage": {
+    "fields": {
+      "id": "ID",
+      "name": "Tên sản phẩm",
+      "description": "Mô tả",
+      "amount": "Số tiền",
+      "interestRate": "Lãi suất",
+      "interest": "Tiền lãi",
+      "brand": "Thương hiệu",
+      "brandId": "Thương hiệu"
+    },
+    "validation": {
+      "nameMinLength": "Tên sản phẩm phải có ít nhất 2 ký tự",
+      "nameMaxLength": "Tên sản phẩm không được vượt quá 100 ký tự",
+      "descriptionMinLength": "Mô tả phải có ít nhất 10 ký tự",
+      "descriptionMaxLength": "Mô tả không được vượt quá 500 ký tự",
+      "amountMin": "Số tiền phải ít nhất 1,000,000 VND",
+      "amountMax": "Số tiền không được vượt quá 100,000,000 VND",
+      "interestRateMin": "Lãi suất phải ít nhất 0.1%",
+      "interestRateMax": "Lãi suất không được vượt quá 50%"
+    },
+    "placeholders": {
+      "name": "Nhập tên sản phẩm...",
+      "description": "Nhập mô tả sản phẩm...",
+      "amount": "Nhập số tiền...",
+      "interestRate": "Nhập lãi suất...",
+      "brandId": "Chọn thương hiệu"
+    }
+  },
+  "brandManage": {
+    "fields": {
+      "id": "ID",
+      "brandName": "Tên thương hiệu"
+    },
+    "create": {
+      "title": "Tạo thương hiệu mới",
+      "formTitle": "Thông tin thương hiệu"
+    },
+    "validation": {
+      "brandNameRequired": "Vui lòng nhập tên thương hiệu!",
+      "brandNameMinLength": "Tên thương hiệu phải có ít nhất 2 ký tự!",
+      "brandNameMaxLength": "Tên thương hiệu không được vượt quá 100 ký tự!"
+    },
+    "placeholders": {
+      "brandName": "Nhập tên thương hiệu..."
+    }
+  },
+  "contractManage": {
+    "editTitle": "Chỉnh sửa hợp đồng",
+    "fields": {
+      "contractCode": "Mã hợp đồng",
+      "customerName": "Tên khách hàng",
+      "loanAmount": "Số tiền vay",
+      "interestRate": "Lãi suất",
+      "phoneModel": "Model điện thoại",
+      "phoneStorage": "Dung lượng",
+      "bankName": "Tên ngân hàng",
+      "bankCode": "Mã ngân hàng",
+      "bankAccountNumber": "Số tài khoản",
+      "loanTermDays": "Thời hạn vay",
+      "contractStatus": "Trạng thái hợp đồng",
+      "paymentStatus": "Trạng thái thanh toán",
+      "days": "ngày",
+      "createdAt": "Ngày tạo",
+      "updatedAt": "Ngày cập nhật",
+      "approvedAt": "Ngày duyệt",
+      "rejectedAt": "Ngày từ chối",
+      "estimatedApprovalTime": "Thời gian dự kiến duyệt",
+      "rejectMessage": "Lý do từ chối"
+    },
+    "sections": {
+      "contractInfo": "Thông tin hợp đồng",
+      "bankInfo": "Thông tin ngân hàng",
+      "timestamps": "Thời gian"
+    },
+    "validation": {
+      "customerNameRequired": "Vui lòng nhập tên khách hàng",
+      "loanAmountRequired": "Vui lòng nhập số tiền vay",
+      "interestRateRequired": "Vui lòng nhập lãi suất",
+      "loanTermRequired": "Vui lòng nhập thời hạn vay"
+    },
+    "status": {
+      "pending": "Chờ duyệt",
+      "under_verification": "Đang xác minh",
+      "approved": "Đã duyệt",
+      "rejected": "Từ chối",
+      "cancelled": "Đã hủy"
+    },
+    "paymentStatus": {
+      "not_disbursed": "Chưa giải ngân",
+      "disbursed": "Đã giải ngân",
+      "partial_paid": "Thanh toán một phần",
+      "fully_paid": "Đã thanh toán đầy đủ",
+      "overdue": "Quá hạn",
+      "default": "Vỡ nợ"
+    },
+    "modal": {
+      "approveTitle": "Xác nhận duyệt hợp đồng",
+      "approveContent": "Bạn có chắc chắn muốn duyệt hợp đồng {{contractCode}} của khách hàng {{customerName}}?",
+      "rejectTitle": "Từ chối hợp đồng",
+      "rejectDescription": "Bạn đang từ chối hợp đồng {{contractCode}} của khách hàng {{customerName}}. Vui lòng nhập lý do từ chối:",
+      "rejectReasonLabel": "Lý do từ chối",
+      "rejectReasonRequired": "Vui lòng nhập lý do từ chối"
+    },
+    "messages": {
+      "fetchError": "Không thể tải danh sách hợp đồng. Vui lòng thử lại!",
+      "approveSuccess": "Duyệt hợp đồng {{contractCode}} thành công!",
+      "approveError": "Có lỗi xảy ra khi duyệt hợp đồng. Vui lòng thử lại!",
+      "rejectSuccess": "Từ chối hợp đồng {{contractCode}} thành công!",
+      "rejectError": "Có lỗi xảy ra khi từ chối hợp đồng. Vui lòng thử lại!",
+      "selectContractError": "Vui lòng chọn hợp đồng để thực hiện hành động!",
+      "fetchDetailError": "Không thể tải chi tiết hợp đồng. Vui lòng thử lại!",
+      "updateSuccess": "Cập nhật hợp đồng thành công!",
+      "updateError": "Có lỗi xảy ra khi cập nhật hợp đồng. Vui lòng thử lại!",
+      "loading": "Đang tải...",
+      "contractNotFound": "Không tìm thấy hợp đồng"
+    }
+  },
+  "transaction": {
+    "title": "Danh sách giao dịch",
+    "noTransactions": "Không có giao dịch nào",
+    "fields": {
+      "transactionCode": "Mã giao dịch",
+      "title": "Tiêu đề",
+      "amount": "Số tiền",
+      "type": "Loại giao dịch",
+      "status": "Trạng thái",
+      "description": "Mô tả",
+      "createdAt": "Ngày tạo"
+    },
+    "type": {
+      "borrow": "Vay",
+      "repay": "Trả"
+    },
+    "status": {
+      "pending": "Đang xử lý",
+      "completed": "Hoàn thành",
+      "failed": "Thất bại"
+    }
+  },
+  "common": {
+    "fields": {
+      "action": "Hành động",
+      "createdAt": "Ngày tạo",
+      "updatedAt": "Ngày cập nhật"
+    },
+    "noData": "Không có dữ liệu",
+    "actions": {
+      "add": "Thêm mới",
+      "edit": "Sửa",
+      "delete": "Xóa",
+      "export": "Xuất file",
+      "viewDetail": "Xem chi tiết",
+      "approve": "Duyệt",
+      "reject": "Từ chối",
+      "cancel": "Hủy",
+      "back": "Quay lại",
+      "save": "Lưu",
+      "create": "Tạo mới",
+      "update": "Cập nhật"
+    },
+    "pagination": {
+      "of": "trên",
+      "items": "mục"
+    },
+    "messages": {
+      "fetchError": "Có lỗi xảy ra khi tải dữ liệu",
+      "loadError": "Có lỗi xảy ra khi tải dữ liệu",
+      "featureComingSoon": "Tính năng đang được phát triển",
+      "deleteSuccess": "Xóa thương hiệu thành công!",
+      "deleteError": "Có lỗi xảy ra khi xóa thương hiệu!",
+      "createSuccess": "Tạo mới thành công!",
+      "createError": "Có lỗi xảy ra khi tạo mới!",
+      "updateSuccess": "Cập nhật thương hiệu thành công!",
+      "updateError": "Có lỗi xảy ra khi cập nhật thương hiệu!",
+      "validationError": "Vui lòng kiểm tra lại thông tin!",
+      "invalidId": "ID không hợp lệ",
+      "uploadSuccess": "Tải lên thành công!",
+      "uploadError": "Có lỗi xảy ra khi tải lên!",
+      "uploading": "Đang tải lên...",
+      "upload": "Tải lên"
+    },
+    "validation": {
+      "required": "Trường này là bắt buộc",
+      "maxLength": "Không được vượt quá {{max}} ký tự"
+    },
+    "status": {
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động"
+    },
+    "confirmDialog": {
+      "deleteTitle": "Xác nhận xóa",
+      "deleteDescription": "Bạn có chắc chắn muốn xóa thương hiệu \"{{name}}\" không?"
+    }
+  },
+
+  "categoryManagement": {
+    "title": "Quản lý danh mục",
+    "sidebar": {
+      "categoryList": "Danh sách danh mục",
+      "categoryCreate": "Thêm danh mục"
+    },
+    "table": {
+      "name": "Tên danh mục",
+      "order": "Thứ tự"
+    },
+    "form": {
+      "nameLabel": "Tên danh mục",
+      "namePlaceholder": "Nhập tên danh mục...",
+      "slugLabel": "Đường dẫn URL",
+      "slugPlaceholder": "Nhập đường dẫn URL...",
+      "slugRequired": "Vui lòng nhập đường dẫn URL",
+      "orderLabel": "Thứ tự",
+      "orderPlaceholder": "Nhập thứ tự...",
+      "nameRequired": "Vui lòng nhập tên danh mục",
+      "orderRequired": "Vui lòng nhập thứ tự"
+    }
+  },
+
+  "productManagement": {
+    "title": "Quản lý sản phẩm",
+    "sidebar": {
+      "productList": "Danh sách sản phẩm",
+      "productCreate": "Thêm sản phẩm"
+    },
+    "table": {
+      "name": "Tên sản phẩm",
+      "shortDescription": "Mô tả ngắn",
+      "thumbnail": "Hình ảnh",
+      "price": "Giá",
+      "stock": "Tồn kho"
+    },
+    "form": {
+      "categoryLabel": "Danh mục",
+      "categoryRequired": "Vui lòng chọn danh mục",
+      "thumbnailUrl": "Hình ảnh sản phẩm",
+      "nameLabel": "Tên sản phẩm",
+      "nameRequired": "Vui lòng nhập tên sản phẩm",
+      "namePlaceholder": "Nhập tên sản phẩm...",
+      "dosageLabel": "Liều lượng",
+      "dosageRequired": "Vui lòng nhập liều lượng",
+      "dosagePlaceholder": "Nhập liều lượng...",
+      "slugLabel": "Đường dẫn URL",
+      "slugPlaceholder": "Nhập đường dẫn URL...",
+      "shortDescriptionLabel": "Mô tả ngắn",
+      "shortDescriptionRequired": "Vui lòng nhập mô tả ngắn",
+      "shortDescriptionPlaceholder": "Nhập mô tả ngắn...",
+      "priceLabel": "Giá",
+      "priceRequired": "Vui lòng nhập giá",
+      "pricePlaceholder": "Nhập giá...",
+      "stockLabel": "Số lượng tồn kho",
+      "stockRequired": "Vui lòng nhập số lượng tồn kho",
+      "stockPlaceholder": "Nhập số lượng tồn kho...",
+      "genericNameLabel": "Tên chung",
+      "genericNameRequired": "Vui lòng nhập tên chung",
+      "genericNamePlaceholder": "Nhập tên chung...",
+      "brandNameLabel": "Tên thương hiệu",
+      "brandNameRequired": "Vui lòng nhập tên thương hiệu",
+      "brandNamePlaceholder": "Nhập tên thương hiệu...",
+      "manufacturerLabel": "Nhà sản xuất",
+      "manufacturerRequired": "Vui lòng nhập nhà sản xuất",
+      "manufacturerPlaceholder": "Nhập nhà sản xuất...",
+      "requiresPrescriptionLabel": "Yêu cầu đơn thuốc",
+      "requiresPrescriptionRequired": "Vui lòng chỉ định có cần đơn thuốc không",
+      "storageInstructionLabel": "Hướng dẫn bảo quản",
+      "storageInstructionRequired": "Vui lòng nhập hướng dẫn bảo quản",
+      "descriptionLabel": "Mô tả",
+      "descriptionRequired": "Vui lòng nhập mô tả",
+      "generalWarningLabel": "Cảnh báo chung",
+      "generalWarningRequired": "Vui lòng nhập cảnh báo chung",
+      "isActiveLabel": "Trạng thái hoạt động",
+      "isActiveRequired": "Vui lòng thiết lập trạng thái hoạt động",
+      "region": "Khu vực"
+    }
+  },
+  "postManagement": {
+    "title": "Quản lý bài đăng",
+    "sidebar": {
+      "postList": "Danh sách bài đăng",
+      "postCreate": "Thêm bài đăng"
+    },
+    "searchPlaceholder": "Tìm kiếm tiêu đề hoặc nội dung...",
+    "status": {
+      "placeholder": "Lọc theo trạng thái",
+      "draft": "Nháp",
+      "published": "Đã xuất bản",
+      "archived": "Lưu trữ"
+    },
+    "table": {
+      "title": "Tiêu đề",
+      "status": "Trạng thái",
+      "author": "Tác giả",
+      "publishedAt": "Ngày xuất bản",
+      "viewCount": "Lượt xem"
+    },
+    "createButton": "Thêm bài đăng",
+    "form": {
+      "createSuccess": "Tạo bài đăng thành công",
+      "updateSuccess": "Cập nhật bài đăng thành công",
+      "titleLabel": "Tiêu đề",
+      "titleRequired": "Vui lòng nhập tiêu đề",
+      "titlePlaceholder": "Nhập tiêu đề bài viết...",
+      "slugLabel": "Đường dẫn URL",
+      "slugRequired": "Vui lòng nhập đường dẫn URL",
+      "slugPlaceholder": "Nhập đường dẫn URL...",
+      "excerptLabel": "Tóm tắt",
+      "excerptPlaceholder": "Nhập tóm tắt ngắn...",
+      "thumbnailLabel": "Ảnh thumbnail",
+      "thumbnailPlaceholder": "Nhập URL ảnh thumbnail...",
+      "statusLabel": "Trạng thái",
+      "authorIdLabel": "ID tác giả",
+      "authorIdPlaceholder": "Nhập ID tác giả...",
+      "contentLabel": "Nội dung",
+      "contentRequired": "Vui lòng nhập nội dung",
+      "contentPlaceholder": "Nhập nội dung bài viết..."
+    }
+  },
+  "orderManagement": {
+    "title": "Quản lý đơn hàng",
+    "sidebar": {
+      "orderList": "Danh sách đơn hàng"
+    },
+    "columns": {
+      "orderNumber": "Mã đơn hàng",
+      "customer": "Khách hàng",
+      "totalAmount": "Tổng tiền",
+      "status": "Trạng thái đơn hàng",
+      "paymentMethod": "Phương thức thanh toán",
+      "paymentStatus": "Trạng thái thanh toán",
+      "createdAt": "Ngày tạo",
+      "action": "Thao tác"
+    },
+    "status": {
+      "pending": "Chờ xác nhận",
+      "confirmed": "Đã xác nhận",
+      "preparing": "Đang chuẩn bị",
+      "shipping": "Đang giao hàng",
+      "delivered": "Đã giao hàng",
+      "cancelled": "Đã hủy"
+    },
+    "paymentMethod": {
+      "cod": "Thanh toán khi nhận hàng (COD)",
+      "bank_transfer": "Chuyển khoản ngân hàng"
+    },
+    "messages": {
+      "updateStatusSuccess": "Cập nhật trạng thái thành công",
+      "error": "Có lỗi xảy ra",
+      "noPayment": "Chưa có",
+      "noNote": "Không có",
+      "noEmail": "Chưa có"
+    },
+    "detail": {
+      "title": "Chi tiết đơn hàng",
+      "printInvoice": "In hóa đơn",
+      "orderInfo": "Thông tin đơn hàng",
+      "customerInfo": "Thông tin khách hàng",
+      "shippingAddress": "Địa chỉ giao hàng",
+      "productList": "Danh sách sản phẩm",
+      "paymentInfo": "Thông tin thanh toán",
+      "invoiceInfo": "Thông tin hóa đơn",
+      "lastUpdated": "Cập nhật lần cuối",
+      "fullName": "Họ tên",
+      "phone": "Số điện thoại",
+      "email": "Email",
+      "note": "Ghi chú",
+      "subtotal": "Tạm tính",
+      "shippingFee": "Phí vận chuyển",
+      "discount": "Giảm giá",
+      "total": "Tổng cộng",
+      "transactionId": "Mã giao dịch",
+      "invoiceNumber": "Số hóa đơn",
+      "issueDate": "Ngày xuất"
+    },
+    "items": {
+      "product": "Sản phẩm",
+      "quantity": "Số lượng",
+      "unitPrice": "Đơn giá",
+      "totalPrice": "Thành tiền"
+    },
+    "actions": {
+      "view": "Xem"
+    },
+    "pagination": {
+      "of": "của",
+      "orders": "đơn hàng"
+    }
+  }
+}

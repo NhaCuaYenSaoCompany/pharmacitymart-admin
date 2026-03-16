@@ -1,0 +1,763 @@
+{
+  "permissions": {
+    "view_banners": "查看所有横幅",
+    "create_banner": "创建新横幅",
+    "view_detail_banner": "查看横幅详情",
+    "edit_banner": "编辑横幅",
+    "delete_banner": "删除横幅",
+    "view_brands": "查看所有品牌",
+    "create_brand": "创建新品牌",
+    "view_detail_brand": "查看品牌详情",
+    "edit_brand": "编辑品牌",
+    "delete_brand": "删除品牌",
+    "view_customers": "查看所有客户",
+    "view_detail_customer": "查看客户详情",
+    "create_customer": "创建新客户",
+    "edit_customer": "编辑客户",
+    "delete_customer": "删除客户",
+    "view_loan_contracts": "查看所有贷款合同",
+    "edit_loan_contract": "编辑贷款合同",
+    "view_detail_loan_contract": "查看贷款合同详情",
+    "approve_loan_contract": "批准贷款合同",
+    "reject_loan_contract": "拒绝贷款合同",
+    "view_permissions": "查看所有权限",
+    "create_permissions": "创建新权限",
+    "refresh_permissions": "刷新权限",
+    "view_products": "查看所有产品",
+    "view_detail_product": "查看产品详情",
+    "create_product": "创建新产品",
+    "edit_product": "编辑产品",
+    "delete_product": "删除产品",
+    "view_categories": "查看所有类别",
+    "view_detail_category": "查看类别详情",
+    "create_category": "创建新类别",
+    "edit_category": "编辑类别",
+    "delete_category": "删除类别",
+    "view_regions": "查看所有区域",
+    "view_detail_region": "查看区域详情",
+    "create_region": "创建新区域",
+    "edit_region": "编辑区域",
+    "delete_region": "删除区域",
+    "view_roles": "查看所有角色",
+    "view_detail_role": "查看角色详情",
+    "create_role_permission": "创建新角色权限",
+    "update_role_permission": "更新角色权限",
+    "view_system_users": "查看所有系统用户",
+    "create_system_user": "创建新系统用户",
+    "update_system_user": "更新系统用户",
+    "view_detail_system_user": "查看系统用户详情",
+    "delete_system_user": "删除系统用户",
+    "update_payment_status": "更新支付状态"
+  },
+
+  "groupPermissions": {
+    "banner": "横幅",
+    "brand": "品牌",
+    "customer": "客户",
+    "loan_contract": "贷款合同",
+    "permission": "权限",
+    "product": "产品",
+    "category": "类别",
+    "region": "区域",
+    "role": "角色",
+    "system_user": "系统用户"
+  },
+
+  "all": "全部",
+  "vn": "越南",
+  "th": "泰国",
+  "my": "马来西亚",
+  "id": "印度尼西亚",
+
+  "tooltips": {
+    "edit": "编辑",
+    "viewDetail": "查看详情",
+    "delete": "删除"
+  },
+
+  "dashboard": {
+    "title": "仪表板"
+  },
+
+  "header": {
+    "dashboard": {
+      "title": "页面"
+    },
+    "customerManage": {
+      "title": "客户管理"
+    },
+    "contractManage": {
+      "title": "合同管理"
+    },
+    "brandManage": {
+      "title": "品牌管理"
+    },
+    "regionManage": {
+      "title": "区域管理"
+    },
+    "productManage": {
+      "title": "产品管理"
+    }
+  },
+
+  "pages": {
+    "login": "登录",
+    "dashboard": "仪表板",
+    "customerManage": "客户管理",
+    "contractManage": "合同管理",
+    "affiliateManage": "联盟管理",
+    "unauthorized": "未经授权"
+  },
+
+  "affiliateManagement": {
+    "title": "联盟管理",
+    "table": {
+      "id": "ID",
+      "title": "标题",
+      "thumbnail": "缩略图",
+      "nameIdol": "偶像姓名",
+      "idRoomLive": "直播间ID",
+      "path": "路径",
+      "target": "目标",
+      "status": "状态",
+      "category": "类别"
+    },
+    "status": {
+      "active": "活跃",
+      "inactive": "不活跃"
+    }
+  },
+
+  "login": {
+    "title": "登录",
+    "username": "用户名",
+    "usernameRequired": "请输入用户名",
+    "usernamePlaceholder": "请输入用户名...",
+    "password": "密码",
+    "passwordRequired": "请输入密码",
+    "passwordPlaceholder": "请输入密码..."
+  },
+
+  "customerManage": {
+    "sidebars": {
+      "customerManage": "客户管理",
+      "customerList": "客户列表"
+    },
+    "fields": {
+      "fullName": "全名",
+      "fullName.placeholder": "请输入全名...",
+      "fullName.required": "请输入全名！",
+      "phoneNumber": "电话号码",
+      "phoneNumber.placeholder": "请输入电话号码...",
+      "phoneNumber.required": "请输入电话号码！",
+      "password": "密码",
+      "password.placeholder": "请输入密码...",
+      "password.required": "请输入密码！",
+      "bankCode": "银行",
+      "bankCode.placeholder": "请选择银行...",
+      "bankCode.required": "请选择银行！",
+      "bankAccountNumber": "银行账户号码",
+      "bankAccountNumber.placeholder": "请输入账户号码...",
+      "bankAccountNumber.required": "请输入银行账户号码！",
+      "regionId": "区域ID",
+      "region": "区域",
+      "totalLoanAmount": "总贷款金额",
+      "totalDebtAmount": "总债务金额",
+      "totalPaidAmount": "总已付金额",
+      "bankName": "银行名称",
+      "identityCard": "身份证",
+      "noImage": "无图片"
+    },
+    "actions": {
+      "create": "创建客户"
+    },
+    "messages": {
+      "banksLoadError": "加载银行列表时出错",
+      "createSuccess": "客户创建成功！",
+      "createSuccessDescription": "客户已在系统中成功创建。",
+      "createError": "创建客户时发生错误！",
+      "createErrorDescription": "请稍后再试或联系管理员。"
+    },
+    "validation": {
+      "phoneNumberInvalid": "电话号码必须为10-11位数字",
+      "passwordMinLength": "密码必须至少6个字符"
+    },
+    "controls": {
+      "title": "客户筛选",
+      "searchPhoneNumberPlaceholder": "电话号码"
+    },
+    "table": {
+      "title": "客户列表"
+    },
+    "editTitle": "客户信息",
+    "contractInfoTitle": "合同信息"
+  },
+
+  "productManage": {
+    "sidebars": {
+      "productManage": "产品管理",
+      "productList": "产品列表",
+      "productCreate": "创建产品"
+    },
+    "fields": {
+      "id": "ID",
+      "name": "产品名称",
+      "description": "描述",
+      "amount": "金额",
+      "interestRate": "利率",
+      "interest": "利息",
+      "brand": "品牌",
+      "brandId": "品牌"
+    },
+    "validation": {
+      "nameMinLength": "产品名称必须至少2个字符",
+      "nameMaxLength": "产品名称不能超过100个字符",
+      "descriptionMinLength": "描述必须至少10个字符",
+      "descriptionMaxLength": "描述不能超过500个字符",
+      "amountMin": "金额必须至少100万元",
+      "amountMax": "金额不能超过1亿元",
+      "interestRateMin": "利率必须至少0.1%",
+      "interestRateMax": "利率不能超过50%"
+    },
+    "placeholders": {
+      "name": "请输入产品名称...",
+      "description": "请输入产品描述...",
+      "amount": "请输入金额...",
+      "interestRate": "请输入利率...",
+      "brandId": "请选择品牌"
+    }
+  },
+
+  "brandManage": {
+    "sidebars": {
+      "brandManage": "品牌管理",
+      "brandList": "品牌列表",
+      "brandCreate": "创建品牌"
+    },
+    "fields": {
+      "id": "ID",
+      "brandName": "品牌名称"
+    },
+    "create": {
+      "title": "创建新品牌",
+      "formTitle": "品牌信息"
+    },
+    "validation": {
+      "brandNameRequired": "请输入品牌名称！",
+      "brandNameMinLength": "品牌名称必须至少2个字符！",
+      "brandNameMaxLength": "品牌名称不能超过100个字符！"
+    },
+    "placeholders": {
+      "brandName": "请输入品牌名称..."
+    }
+  },
+
+  "contractManage": {
+    "sidebars": {
+      "contractManage": "合同管理",
+      "contractList": "合同列表"
+    },
+    "editTitle": "编辑合同",
+    "fields": {
+      "contractCode": "合同编号",
+      "customerName": "客户名称",
+      "loanAmount": "贷款金额",
+      "interestRate": "利率",
+      "phoneModel": "手机型号",
+      "phoneStorage": "存储容量",
+      "bankName": "银行名称",
+      "bankCode": "银行代码",
+      "bankAccountNumber": "账户号码",
+      "loanTermDays": "贷款期限",
+      "contractStatus": "合同状态",
+      "paymentStatus": "支付状态",
+      "days": "天",
+      "createdAt": "创建时间",
+      "updatedAt": "更新时间",
+      "approvedAt": "批准时间",
+      "rejectedAt": "拒绝时间",
+      "estimatedApprovalTime": "预计批准时间",
+      "rejectMessage": "拒绝原因",
+      "frontIdentityImage": "身份证正面图片",
+      "backIdentityImage": "身份证背面图片",
+      "totalContracts": "总合同数",
+      "totalPrice": "总金额",
+      "region": "区域",
+      "convertDollar": "转换为美元",
+      "phoneNumber": "电话号码",
+      "paymentDueDate": "付款到期日",
+      "convertCNY": "转换为人民币",
+      "amountPaid": "已支付金额",
+      "amountBorrowed": "借款金额",
+      "amountRemaining": "剩余金额",
+      "interestAmount": "利息金额",
+      "renewalAmount": "续费金额",
+      "renewalFee": "续费费用",
+      "renewalStartDate": "续费开始日期",
+      "renewalEndDate": "续费结束日期",
+      "renewalStatus": "续费状态",
+      "icloudId": "苹果ID"
+    },
+    "sections": {
+      "contractInfo": "合同信息",
+      "bankInfo": "银行信息",
+      "timestamps": "时间戳",
+      "identityImages": "身份证图片"
+    },
+    "validation": {
+      "customerNameRequired": "请输入客户名称",
+      "loanAmountRequired": "请输入贷款金额",
+      "interestRateRequired": "请输入利率",
+      "loanTermRequired": "请输入贷款期限"
+    },
+    "status": {
+      "pending": "待处理",
+      "under_verification": "审核中",
+      "approved": "已批准",
+      "rejected": "已拒绝",
+      "cancelled": "已取消",
+      "completed": "已完成"
+    },
+    "paymentStatus": {
+      "not_disbursed": "未发放",
+      "disbursed": "已发放",
+      "partial_paid": "部分支付",
+      "fully_paid": "全额支付",
+      "overdue": "逾期",
+      "default": "违约"
+    },
+    "modal": {
+      "approveTitle": "确认批准合同",
+      "approveContent": "您确定要批准客户{{customerName}}的合同{{contractCode}}吗？",
+      "rejectTitle": "拒绝合同",
+      "rejectDescription": "您正在拒绝客户{{customerName}}的合同{{contractCode}}。请提供拒绝原因：",
+      "rejectReasonLabel": "拒绝原因",
+      "rejectReasonRequired": "请提供拒绝原因",
+      "paymentAmountLabel": "支付金额",
+      "paymentAmountPlaceholder": "请输入支付金额",
+      "paymentAmountRequired": "请输入支付金额",
+      "paymentAmountMin": "支付金额必须至少为1",
+      "paymentAmountMax": "支付金额不能超过剩余金额",
+      "maxAmount": "最大金额",
+      "renewalFeeAmount": "续费金额",
+      "renewalFeeAmountRequired": "请输入续费金额",
+      "renewalFeeAmountMin": "续费金额必须至少为0",
+      "datePayment": "支付日期",
+      "datePaymentRequired": "请选择支付日期",
+      "description": "描述"
+    },
+    "messages": {
+      "fetchError": "加载合同列表失败。请重试！",
+      "approveSuccess": "合同{{contractCode}}批准成功！",
+      "approveError": "批准合同时发生错误。请重试！",
+      "rejectSuccess": "合同{{contractCode}}拒绝成功！",
+      "rejectError": "拒绝合同时发生错误。请重试！",
+      "selectContractError": "请选择一个合同以执行操作！",
+      "fetchDetailError": "加载合同详情失败。请重试！",
+      "updateSuccess": "合同更新成功！",
+      "updateError": "更新合同时发生错误。请重试！",
+      "loading": "加载中...",
+      "contractNotFound": "未找到合同"
+    },
+    "controls": {
+      "title": "筛选合同"
+    },
+    "table": {
+      "title": "合同列表"
+    },
+    "actions": {
+      "payment": "支付",
+      "default": "默认"
+    }
+  },
+
+  "transaction": {
+    "title": "交易列表",
+    "noTransactions": "未找到交易",
+    "fields": {
+      "transactionCode": "交易编号",
+      "title": "标题",
+      "amount": "金额",
+      "type": "交易类型",
+      "status": "状态",
+      "description": "描述",
+      "createdAt": "创建时间"
+    },
+    "type": {
+      "borrow": "借款",
+      "repay": "还款"
+    },
+    "status": {
+      "pending": "待处理",
+      "completed": "已完成",
+      "failed": "失败"
+    }
+  },
+
+  "staffManagement": {
+    "title": "员工管理",
+    "sidebar": {
+      "staffList": "员工列表",
+      "addStaff": "添加员工",
+      "staffPositionTitle": "员工职位",
+      "staffPositionList": "员工职位列表",
+      "permissionManage": "权限管理"
+    },
+    "table": {
+      "columns": {
+        "fullname": "全名",
+        "username": "用户名",
+        "phoneNumber": "电话号码",
+        "roomName": "房间名称",
+        "roleName": "角色名称"
+      }
+    },
+    "fields": {
+      "avatar": "头像",
+      "name": "名称",
+      "desc": "描述",
+      "role": "角色",
+      "username": "用户名",
+      "password": "密码",
+      "fullname": "全名",
+      "phoneNumber": "电话号码",
+      "gender": "性别",
+      "region": "区域"
+    },
+    "modal": {
+      "addPositionTitle": "添加职位",
+      "editPositionTitle": "编辑职位"
+    },
+    "messages": {
+      "createSuccess": "员工创建成功！",
+      "createError": "创建员工时发生错误！",
+      "validation": {
+        "nameRequired": "请输入名称",
+        "descRequired": "请输入描述"
+      }
+    },
+    "validation": {
+      "phoneNumberInvalid": "电话号码必须为10-11位数字",
+      "usernameInvalid": "用户名必须为3-20个字符，仅可包含字母、数字和下划线"
+    },
+    "placeholders": {
+      "name": "请输入职位名称",
+      "desc": "请输入职位描述",
+      "username": "请输入用户名",
+      "password": "请输入密码",
+      "fullname": "请输入全名",
+      "phoneNumber": "请输入电话号码"
+    }
+  },
+
+  "regionManage": {
+    "title": "区域管理",
+    "sidebars": {
+      "regionManage": "区域管理",
+      "regionList": "区域列表",
+      "regionCreate": "创建区域"
+    },
+    "fields": {
+      "code": "代码",
+      "name": "名称",
+      "prefixPhone": "电话前缀",
+      "codeRequired": "请输入代码",
+      "nameRequired": "请输入名称",
+      "prefixPhoneRequired": "请输入电话前缀",
+      "languageCode": "语言代码",
+      "languageCodeRequired": "请输入语言代码",
+      "currencyCode": "货币代码",
+      "currencyCodeRequired": "请输入货币代码",
+      "requiresZeroPrefix": "需要零前缀",
+      "requiresZeroPrefixRequired": "请输入需要零前缀",
+      "phoneMaxLength": "电话最大长度",
+      "phoneMaxLengthRequired": "请输入电话最大长度",
+      "phoneRegex": "电话正则",
+      "phoneRegexRequired": "请输入电话正则",
+      "locale": "区域",
+      "localeRequired": "请输入区域",
+      "region": "区域",
+      "regionPlaceholder": "选择一个区域"
+    },
+    "table": {
+      "title": "区域列表"
+    },
+    "controls": {
+      "title": "区域筛选",
+      "searchPlaceholder": "输入区域名称"
+    }
+  },
+
+  "common": {
+    "male": "男",
+    "female": "女",
+    "fields": {
+      "action": "操作",
+      "createdAt": "创建时间",
+      "updatedAt": "更新时间"
+    },
+    "noData": "无数据",
+    "validation": {
+      "required": "此字段为必填项",
+      "minLength": "最小长度为6个字符",
+      "email": "无效的电子邮件地址"
+    },
+    "text": {
+      "localTime": "当地时间",
+      "max": "最大值",
+      "day": "天",
+      "month": "月",
+      "year": "年"
+    },
+    "actions": {
+      "add": "添加",
+      "edit": "编辑",
+      "delete": "删除",
+      "export": "导出",
+      "viewDetail": "查看详情",
+      "approve": "批准",
+      "reject": "拒绝",
+      "cancel": "取消",
+      "back": "返回",
+      "save": "保存",
+      "create": "创建",
+      "update": "更新",
+      "clear": "清除",
+      "search": "搜索",
+      "submit": "提交",
+      "find": "查找",
+      "no": "否",
+      "yes": "是",
+      "all": "全部",
+      "refresh": "刷新"
+    },
+    "pagination": {
+      "of": "共",
+      "items": "项"
+    },
+    "messages": {
+      "fetchError": "加载数据时发生错误",
+      "featureComingSoon": "功能正在开发中",
+      "deleteSuccess": "品牌删除成功！",
+      "deleteError": "删除品牌时发生错误！",
+      "createSuccess": "品牌创建成功！",
+      "createError": "创建品牌时发生错误！",
+      "updateSuccess": "品牌更新成功！",
+      "updateError": "更新品牌时发生错误！",
+      "validationError": "请检查信息！",
+      "invalidId": "无效的ID",
+      "confirmDelete": "您确定要删除此项吗？",
+      "upload": "上传",
+      "uploadSuccess": "上传成功",
+      "uploadError": "上传失败",
+      "uploading": "上传中..."
+    },
+    "confirm": {
+      "deleteTitle": "确认删除",
+      "deleteDescription": "您确定要删除品牌“{{name}}”吗？"
+    },
+    "filters": {
+      "all": "全部"
+    }
+  },
+
+  "permissionManagement": {
+    "selectRole": "选择角色",
+    "fields": {
+      "name": "功能名称",
+      "groupName": "组名称"
+    }
+  },
+
+  "categoryManagement": {
+    "title": "分类管理",
+    "sidebar": {
+      "categoryList": "分类列表",
+      "categoryCreate": "添加分类"
+    },
+    "table": {
+      "name": "分类名称",
+      "order": "排序"
+    },
+    "form": {
+      "nameLabel": "分类名称",
+      "namePlaceholder": "请输入分类名称...",
+      "slugLabel": "URL链接",
+      "slugPlaceholder": "请输入URL链接...",
+      "slugRequired": "请输入URL链接",
+      "orderLabel": "排序",
+      "orderPlaceholder": "请输入排序...",
+      "nameRequired": "请输入分类名称",
+      "orderRequired": "请输入排序"
+    }
+  },
+
+  "productManagement": {
+    "title": "产品管理",
+    "sidebar": {
+      "productList": "产品列表",
+      "productCreate": "添加产品"
+    },
+    "table": {
+      "name": "产品名称",
+      "shortDescription": "简短描述",
+      "thumbnail": "缩略图",
+      "price": "价格",
+      "stock": "库存"
+    },
+    "form": {
+      "categoryLabel": "分类",
+      "categoryRequired": "请选择分类",
+      "thumbnailUrl": "产品图片",
+      "nameLabel": "产品名称",
+      "nameRequired": "请输入产品名称",
+      "namePlaceholder": "请输入产品名称...",
+      "dosageLabel": "剂量",
+      "dosageRequired": "请输入剂量",
+      "dosagePlaceholder": "请输入剂量...",
+      "slugLabel": "URL链接",
+      "slugPlaceholder": "请输入URL链接...",
+      "shortDescriptionLabel": "简短描述",
+      "shortDescriptionRequired": "请输入简短描述",
+      "shortDescriptionPlaceholder": "请输入简短描述...",
+      "priceLabel": "价格",
+      "priceRequired": "请输入价格",
+      "pricePlaceholder": "请输入价格...",
+      "stockLabel": "库存数量",
+      "stockRequired": "请输入库存数量",
+      "stockPlaceholder": "请输入库存数量...",
+      "genericNameLabel": "通用名称",
+      "genericNameRequired": "请输入通用名称",
+      "genericNamePlaceholder": "请输入通用名称...",
+      "brandNameLabel": "品牌名称",
+      "brandNameRequired": "请输入品牌名称",
+      "brandNamePlaceholder": "请输入品牌名称...",
+      "manufacturerLabel": "制造商",
+      "manufacturerRequired": "请输入制造商",
+      "manufacturerPlaceholder": "请输入制造商...",
+      "requiresPrescriptionLabel": "需要处方",
+      "requiresPrescriptionRequired": "请指定是否需要处方",
+      "storageInstructionLabel": "存储说明",
+      "storageInstructionRequired": "请输入存储说明",
+      "descriptionLabel": "描述",
+      "descriptionRequired": "请输入描述",
+      "generalWarningLabel": "一般警告",
+      "generalWarningRequired": "请输入一般警告",
+      "isActiveLabel": "活动状态",
+      "isActiveRequired": "请设置活动状态",
+      "region": "区域"
+    }
+  },
+  "postManagement": {
+    "title": "文章管理",
+    "sidebar": {
+      "postList": "文章列表",
+      "postCreate": "新增文章"
+    },
+    "searchPlaceholder": "搜索标题或内容...",
+    "status": {
+      "placeholder": "按状态筛选",
+      "draft": "草稿",
+      "published": "已发布",
+      "archived": "已归档"
+    },
+    "table": {
+      "title": "标题",
+      "status": "状态",
+      "author": "作者",
+      "publishedAt": "发布时间",
+      "viewCount": "浏览量"
+    },
+    "createButton": "新增文章",
+    "form": {
+      "createSuccess": "创建文章成功",
+      "updateSuccess": "更新文章成功",
+      "titleLabel": "标题",
+      "titleRequired": "请输入标题",
+      "titlePlaceholder": "请输入文章标题...",
+      "slugLabel": "URL链接",
+      "slugRequired": "请输入URL链接",
+      "slugPlaceholder": "请输入URL链接...",
+      "excerptLabel": "摘要",
+      "excerptPlaceholder": "请输入摘要...",
+      "thumbnailLabel": "缩略图链接",
+      "thumbnailPlaceholder": "请输入缩略图链接...",
+      "statusLabel": "状态",
+      "authorIdLabel": "作者ID",
+      "authorIdPlaceholder": "请输入作者ID...",
+      "contentLabel": "内容",
+      "contentRequired": "请输入内容",
+      "contentPlaceholder": "请输入文章内容..."
+    }
+  },
+  "orderManagement": {
+    "title": "订单管理",
+    "sidebar": {
+      "orderList": "订单列表"
+    },
+    "columns": {
+      "orderNumber": "订单号",
+      "customer": "客户",
+      "totalAmount": "总金额",
+      "status": "订单状态",
+      "paymentMethod": "支付方式",
+      "paymentStatus": "支付状态",
+      "createdAt": "创建时间",
+      "action": "操作"
+    },
+    "status": {
+      "pending": "待处理",
+      "confirmed": "已确认",
+      "preparing": "准备中",
+      "shipping": "配送中",
+      "delivered": "已送达",
+      "cancelled": "已取消"
+    },
+    "paymentMethod": {
+      "cod": "货到付款 (COD)",
+      "bank_transfer": "银行转账"
+    },
+    "messages": {
+      "updateStatusSuccess": "状态更新成功",
+      "error": "发生错误",
+      "noPayment": "无",
+      "noNote": "无",
+      "noEmail": "无"
+    },
+    "detail": {
+      "title": "订单详情",
+      "printInvoice": "打印发票",
+      "orderInfo": "订单信息",
+      "customerInfo": "客户信息",
+      "shippingAddress": "收货地址",
+      "productList": "产品列表",
+      "paymentInfo": "支付信息",
+      "invoiceInfo": "发票信息",
+      "lastUpdated": "最后更新",
+      "fullName": "姓名",
+      "phone": "电话号码",
+      "email": "电子邮件",
+      "note": "备注",
+      "subtotal": "小计",
+      "shippingFee": "运费",
+      "discount": "折扣",
+      "total": "总计",
+      "transactionId": "交易ID",
+      "invoiceNumber": "发票号码",
+      "issueDate": "开票日期"
+    },
+    "items": {
+      "product": "产品",
+      "quantity": "数量",
+      "unitPrice": "单价",
+      "totalPrice": "总价"
+    },
+    "actions": {
+      "view": "查看"
+    },
+    "pagination": {
+      "of": "之",
+      "orders": "订单"
+    }
+  }
+}
