@@ -4,10 +4,10 @@
   "version": "2.0.1",
   "type": "module",
   "scripts": {
-    "start:dev": "vite --port=7001",
+    "start:dev": "vite --port=3001",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port=7001"
+    "preview": "vite preview --port=3001"
   },
   "dependencies": {
     "@ant-design/charts": "^2.6.2",
